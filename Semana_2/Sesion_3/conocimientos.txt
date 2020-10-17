@@ -1,0 +1,31 @@
+-----------------------------------------------------------
+CONOCIMIENTOS DE LA SESION 3 - SEMANA 2 
+-----------------------------------------------------------
+
+
+-- HTML 5
+
+* Soporte a video/audio nativo
+* Semantica
+* Drag and Drop 
+* Web Sockets = Canales entre el servidor y el cliente
+* Paginas Web sin conexion
+* Soporte con CSS3
+* webRTC - Comunicacion en tiempo real , viodellamadas
+   ( Es necesario conocimiento intermedio en Javascript)
+
+
+
+UTF-8 -- Lenguaje Latino
+meta:descripcion -- review de la pagina
+meta:tags -- etiquetado para motores de busqueda
+
+
+SVG = diseno con vectores
+Canvas + Js = Animaciones, juegos online
+WebGL = Libreria tridimensional en 3D
+
+--Etiquetas
+
+* Semantico = palabras con significado
+* No semantico = no tienen significados

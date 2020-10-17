@@ -1,0 +1,75 @@
+/*
+** GLOBAL
+*/
+
+body {
+    font-family: arial;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+/*
+** HEADER
+*/
+
+header{
+    display: flex;
+    background-color: crimson;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header ul {
+    display: flex;
+}
+
+header li {
+    margin-left: 20px;
+}
+
+header h1{
+    font-size: 32px;
+}
+
+/*
+** MAIN
+*/
+
+main{
+    display: flex;
+}
+
+main aside{
+    padding: 20px;
+    background-color: teal;
+}
+
+main li {
+    margin-bottom: 20px;
+}
+
+/*
+** SECTION
+*/
+
+section {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: turquoise; 
+}
+

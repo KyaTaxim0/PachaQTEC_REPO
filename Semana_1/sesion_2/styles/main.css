@@ -1,0 +1,85 @@
+/*
+** Global
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: arial;
+    color: white;
+    font-size: 14px;
+}
+
+li {
+    list-style: none;
+}
+
+h2 {
+    font-family: verdana;
+    margin-bottom: 15px;
+}
+
+p {
+    margin: 15px 0;
+    line-height: 1.8;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+input {
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+    background: red;
+    color: white;
+}
+
+
+/*
+**Header
+*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: darkmagenta;
+}
+
+header .logo {
+    font-size: 32px;
+}
+
+header ul {
+    display: flex;
+}
+
+header li {
+    margin-left: 20px;
+}
+
+/*
+**.about
+*/
+
+.about {
+    padding: 20px;
+    background: orange;
+}
+
+/*
+**.contact
+*/
+
+.contact {
+    padding: 20px;
+    background: blue;
+}
