@@ -4,3 +4,13 @@ action = enlazar con un archivo que pueda trabajar con la informacion del formul
 method (GET) = se envian los datos que ingresen al formulario, verbo q viaja por la url
 method (POST) = verbo seguro que no viaja por la url
 for = al dar click en el input alineado se selecciona
+
+
+-- Tipos de Botones
+
+Button = Normal
+Summit = Enviar los datos del formulario
+Reset = Limpia los campos del formulario
+
+
+

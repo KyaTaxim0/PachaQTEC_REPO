@@ -3,14 +3,126 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formularios</title>
 </head>
 <body>
+    <form>
+        <fieldset>
+            <legend>Rellena los siguientes datos:</legend>
+            <h3>Datos Personales</h3>
+            <hr>
+            <br>
+            <div>
+                <label>
+                    Nombre : 
+                    <input name="name" type="text">
+                </label>
+                <label>
+                    Apellidos : 
+                    <input name="lastname" type="text">
+                </label>
+            </div>
+            <br>
+            <div>
+                <label>
+                    Numero : 
+                    <input name="celphone" type="number">
+                </label>
+            </div>
+            <br>
+            <h3>Datos de Domicilio</h3>
+            <hr>
+            <br>
+            <div>
+                <select>
+                    <option value="">Provincia</option>
+                    <option value="venezuela">Lima Metropolitana</option>
+                    <option value="peru">Ancash</option>
+                    <option value="peru">Piura</option>
+                    <option value="peru">Tumbes</option>
+                    <option value="peru">Ica</option>
+                    <option value="peru">Arequipa</option>
+                    <option value="peru">Otros</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <select>
+                    <option value="">Distrito</option>
+                    <option value="venezuela">La Molina</option>
+                    <option value="peru">Santiago de Surco</option>
+                    <option value="peru">Chorrillos</option>
+                    <option value="peru">San Miguel</option>
+                    <option value="peru">Otros</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label>
+                    Codigo ZIP : 
+                    <input name="codezip" type="number">
+                </label>
+            </div>
+            <br>
+            <div>
+                <label>
+                    Direccion : 
+                    <input name="address" type="text">
+                </label>
+            </div>
+            <br>
+            <h3>Detalles del Pedido</h3>
+            <hr>
+            <br>
+            <div>
+                <select>
+                    <option value="">Producto</option>
+                    <option value="venezuela">mesa</option>
+                    <option value="peru">silla</option>
+                    <option value="peru">muebles</option>
+                    <option value="peru">rack</option>
+                    <option value="peru">Otros</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label>Color del producto : 
+                    <input name="prodcolor" type="color">
+                </label>
+            </div>
+            <br>
+            <div>
+                <label>Empaquetado para regalo : 
+                    <input name="giftpack" type="checkbox">
+                </label>
+            </div>
+            <br>
+            <div>
+                <label>
+                    Cantidad : 
+                    <input name="quantity" type="number">
+                </label>
+            </div>
+            <br>
+            <div>
+                <label>
+                    Dia disponible a entrega : 
+                    <input name="shipdate" type="date">
+                </label>
+            </div>
+            <br>
+        </fieldset>
+        <br>
+        <div>
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
+    <!--
     <h1>FORMULARIO</h1>
     <form action="./scripts/contacto.php" method="GET">
         <fieldset>
             <legend>Nombre</legend>
-            <!--label for="name">Nombre: </label>-->
+            label for="name">Nombre: </label>
             <input id="name" type="text" name="name" >
         </fieldset>
         <div>
@@ -29,6 +141,27 @@
             <label for="coments">Comentarios: </label>
             <textarea id="comments" ></textarea>
         </div>
-    </form>
+        <div>
+            <select>
+                <option value="">Elige tu pais</option>
+                <option value="peru">Peru</option>
+                <option value="venezuela">Venezuela</option>
+            </select>
+        </div>
+        <div>
+            <label>Elige tu sexo</label>
+            <label>
+                F
+                <input name="sex" type="radio">
+            </label>
+            <label>
+                M
+                <input name="sex" type="radio">
+            </label>
+        </div>
+        <div>
+            <button type="submit">Enviar</button>
+        </div>
+    </form> -->
 </body>
 </html>
