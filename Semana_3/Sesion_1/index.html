@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>FORMULARIO</h1>
+    <form action="./scripts/contacto.php" method="GET">
+        <fieldset>
+            <legend>Nombre</legend>
+            <!--label for="name">Nombre: </label>-->
+            <input id="name" type="text" name="name" >
+        </fieldset>
+        <div>
+            <label for="lastname">Apellidos: </label>
+            <input id="lastname" type="text" name="lastname" placeholder="Apellidos">
+        </div>
+        <div>
+            <label for="age">Edad: </label>
+            <input id="age" type="text" name="age" >
+        </div>
+        <div>
+            <label for="email">Email: </label>
+            <input id="email" type="text" name="email" >
+        </div>
+        <div>
+            <label for="coments">Comentarios: </label>
+            <textarea id="comments" ></textarea>
+        </div>
+    </form>
+</body>
+</html>

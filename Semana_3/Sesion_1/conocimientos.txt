@@ -1,0 +1,6 @@
+-- FORMULARIOS
+
+action = enlazar con un archivo que pueda trabajar con la informacion del formulario
+method (GET) = se envian los datos que ingresen al formulario, verbo q viaja por la url
+method (POST) = verbo seguro que no viaja por la url
+for = al dar click en el input alineado se selecciona
