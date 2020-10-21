@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO - VALIDACIONES</title>
+    <style>
+        input,
+        select{
+            margin-right: 4%;
+            padding: 10px;
+            width: 43%;
+            font-size: 13px;
+            border: 1px solid #ffffff;
+            text-transform: uppercase;
+        }
+
+        button{
+            width: 100%;
+            padding: 20px;
+            background-color: rgb(42, 50, 82);
+            color: white;
+            border: 1px solid rgb(19, 92, 134);
+            cursor:pointer;
+        }
+
+        textarea{
+            width: 100%;
+        }
+
+        form{
+
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+            padding: 20px;
+            border: 1px solid #a5a5a5;
+            background: rgb(88, 161, 167);
+            margin-top: 30px;
+        }
+
+        input:focus:valid,
+        select:focus:valid,
+        textarea:focus:valid{
+            outline: none;
+            color: green;
+        }
+
+        input:focus:invalid,
+        select:focus:invalid,
+        textarea:focus:invalid{
+            outline: none;
+            color:red;
+        }
+
+    </style>
+</head>
+<body>
+    <form>
+        <div class="estructura">
+        <input required pattern="[a-zA-Z]+" name="name" type="text" placeholder="Nombre">
+        <input required value="QUISPE" name="lastname"t ype="text" placeholder="Apellidos">
+        </div>
+        <hr>
+        <br>
+        <div class="estructura">
+        <input required min="18" max="62" name="age" type="number" placeholder="Edad">
+        <input required name="email" type="email" placeholder="Correo">
+        </div>
+        <hr>
+        <br>
+        <div class="estructura">
+        <select required>
+            <option value="">Selecciona tu pais</option>
+            <option value="">Peru</option>
+            <option value="">Venezuela</option>
+            <option value="">Colombia</option>
+        </select>
+        </div>
+        <hr>
+        <br>
+        <textarea required rows="5" maxlength="200" name="Description" placeholder="Descripcion"></textarea>
+        <hr>
+        <br>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

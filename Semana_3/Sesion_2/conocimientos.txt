@@ -1,0 +1,3 @@
+
+readonly = manda la informacion 
+disable = no envia la informacion
