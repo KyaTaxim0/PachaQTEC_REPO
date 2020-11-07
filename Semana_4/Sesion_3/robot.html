@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROBO BONITO</title>
+    <style>
+        .robotsito{
+            height: 600px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        *{
+                box-sizing: border-box;
+        }
+        .circulo-fondo{
+            background:rgb(190, 202, 198);
+            width: 250px;
+            height: 250px;
+            border-radius: 100%;
+            border: 8px solid rgb(30, 64, 70);
+            position: relative;
+            
+        }
+
+        .cabeza{
+            height: 200px;
+            width: 200px;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            top: -20px;
+            border: 8px solid rgb(30, 64, 70);
+            border-radius: 85px/ 65px;
+            background: rgb(255, 255, 255);
+            z-index: 4;
+
+
+        }
+
+        .cabeza::after{
+            content: "";
+            position: absolute;
+            top:-30px;
+            height: 30px;
+            width: 10px;
+            left:50%;
+            transform: translateX(-50%);
+            background: rgb(30, 64, 70);
+        }
+
+        .cabeza::before{
+            content: "";
+            position: absolute;
+            top:-60px;
+            left:50%;
+            transform: translateX(-50%);
+            height: 20px;
+            width: 20px;
+            background: rgb(190, 202, 198);
+            border: 8px solid rgb(30, 64, 70);
+            border-radius: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="robotsito">
+        <div class="circulo-fondo">
+            <div class="oreja izquierda"></div>
+            <div class="cabeza">
+                <div class="cara">
+                    <div class="ojos izquierdo"></div>
+                    <div class="ojos derecho"></div>
+                    <div class="ojos boca"></div>
+                </div>
+            </div>
+            <div class="oreja derecha"></div>
+            <div class="oreja cuerpo"></div>
+        </div>
+        <!--https://dev.to/akhilarjun/css-art-let-s-create-a-cute-robot-part-1-3ng5-->
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <style>
+        /* border radious
+        */
+        .shadow{
+            width: 140px;
+            height: 140px;
+            background-color: red;
+            color: white;
+            text-align:center;
+            border-radius: 10px 58px 35px 80px;
+
+            /* box shadow
+            */
+            box-shadow: 10px  10px 10px orange,20px  30px 10px blue;
+        }
+
+        /* transiciones
+            */
+        
+        h1{
+            /*transition-property: text-shadow;
+            transition-duration: 1s;
+            transition-timing-function: Fast Out, Linear In;*/
+            transition: text-shadow 0.5s ease;
+            transition: color 2s ease;
+
+        }
+
+        h1:hover{
+            text-shadow: 1px 1px 0px red,-1px -1px 0px blue,2px 2px 0pc white, 3px 3px 0px orange;
+            color:green
+        }
+
+        .circle{
+            width: 100px;
+            height: 100px;
+            background-color:greenyellow;
+            border-radius: 100%;
+            animation-name: rueda;
+            animation-duration: 5s;
+            transition: all .5 ease;
+            animation-iteration-count:infinite ;
+        }
+
+        @keyframes rueda{
+            0%{
+                margin-left:100px;
+                background-color: hotpink;
+            }
+            50%{
+                margin-top:-20px;
+                left: 100px;
+            }
+            100%{
+                margin-left: 0px;
+                margin-top: 0px;
+                background-color: indigo;
+            }
+        }
+
+        .box{
+            background-color:yellow;
+            width: 500px;
+            height: 80px;
+            margin-top: 20px;
+        }
+
+        .translate:hover{
+            transform:translate(100px,90px);
+        }
+
+        .scale:hover{
+            transform:scale(2);
+        }
+    </style>
+</head>
+<body>  
+    <div class="shadow">
+        CAJA
+    </div>
+    <br>
+    <h1>
+        TITULO PRINCIPAL
+    </h1>
+    <div class="circle">
+    </div>
+    <div class="box translate-x">
+        TRANSLATE X
+    </div>
+    <div class="box translate-y">
+        TRANSLATE Y
+    </div>
+    <div class="box translate">
+        TRANSLATE
+    </div>
+    <div class="box scale">
+        SCALE
+    </div>
+</body>
+</html>

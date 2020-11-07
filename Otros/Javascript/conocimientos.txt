@@ -1,0 +1,143 @@
+________________________________________________________________________________________________
+-- Tipos de datos
+------------------------------------------------------------------------------------------------
+
+//STRING:
+    "Hello World"
+    'Hello World'
+
+//NUMBER
+    10000
+    -2.3
+
+//BOOLEAN
+    true
+    false 
+
+//ARRAY
+    ['joe','ryan','martha']
+    [1,2,3]
+    [true, false,true,true]
+
+//OBJECT
+
+{
+    "username" : 'ryan',
+    "score" : 70.4,
+    "hours" : 14,
+    "proffesional" : true,
+    "friends" : []
+}
+
+
+________________________________________________________________________________________________
+-- Tipos de variables
+------------------------------------------------------------------------------------------------
+
+
+var -- asignacion de valores que puede variar
+let -- asignacion de valores que puede variar
+const -- no se puede reasignar valores por ser constantes
+
+* la asignacion de un nombre a una variable: camelcase, sin numeros, solo acepta (-/_/$/Mayusculas)
+
+
+-- Comentarios
+
+// comentario de una linea
+/* 
+    comentario de varias lineas
+*/
+
+-- Operaciones
+
+Se pueden realizar las operaciones logicas normales  (+,-,*,/)
+Cuando se trata de valores string la + concatena cadenas string 
+Podemos utilizar comparaciones como > < == != entre dos variables 
+
+
+________________________________________________________________________________________________
+-- Condicionales
+------------------------------------------------------------------------------------------------
+
+=
+==
+=== <-- comparacion mas fuerte
+
+->IF
+->IF ELSE 
+
+if(result == true){
+    console.log('Login Correcto!');
+}else {
+    console.log('Contrasena Incorrecta');
+}
+
+if(score >30){
+    console.log('Necesitas practicar mas');
+}else if(score>15){
+    console.log('Estas Mejorando');
+}else{
+    console.log('Sigue este Tutorial');
+}
+
+->SWITCH
+
+
+let typeCard = 'asa';
+
+switch(typeCard){
+    case 'Debit Card':
+        console.log('Esta es una tarjeta de debito');
+        break;
+    case 'Credit Card':
+        console.log('Esta es una tarjeta de credito');
+        break;
+    default:
+        console.log('No tienes tarjeta');    
+}
+
+
+________________________________________________________________________________________________
+-- Bucles
+------------------------------------------------------------------------------------------------
+
+-> WHILE
+
+let count = 50;
+
+while(count > 0){
+    console.log(count);
+    count = count-1 ; // count--
+}
+
+
+-> FOR
+
+let names = ['karina','kamila','flor'];
+
+console.log(names.length); // nos da la longitud del array
+
+for(let i=0;i < names.length;i++){
+    console.log(names[i]);
+}
+
+
+________________________________________________________________________________________________
+-- Funciones
+------------------------------------------------------------------------------------------------
+
+El codigo lee la funcion cuando esta es llamada, no antes
+
+function saludar(username){
+    console.log('Hola' + ' ' + username + ' estas aprendiendo ;)');
+} 
+
+saludar('Karina');
+
+
+function sumar(n1,n2){
+    console.log(n1+n2);
+}
+
+sumar(100,200);

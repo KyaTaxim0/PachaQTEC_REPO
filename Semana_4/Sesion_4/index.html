@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS3</title>
+    <style>
+        .reto1{
+            height: 33vw;
+            background-color: aquamarine;
+            display: flex;
+        }
+
+        .bloque-1{
+            position: relative;
+            margin:auto 2.5%;
+            width: 20%;
+            height: 60%;
+        }
+
+        .bloque-1 img{
+            position:absolute;
+            width: 100%;
+            height: 100%;
+            border-radius: 12px;
+        }
+
+        .bloque-1:hover .bloque-2{
+            position: absolute;
+            margin: 10%;
+            width: 80%;
+            height: 80%;
+            background-color: coral;
+            transition: all .3s ease;
+            border-radius: 12px;
+        }
+
+        h1{
+            font-size: ;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="reto1">
+            <div class="bloque-1">
+                <img src="./images/programacion_01.jpg"/>
+                <div class="bloque-2">
+                    <h1>Web Dev</h1>
+                    <p>Desarrollo de apps</p>
+                </div>
+            </div>
+            <div class="bloque-1">
+                <img src="./images/programacion_02.jpg"/>
+                <div class="bloque-2"></div></div>
+            <div class="bloque-1">
+                <img src="./images/programacion_03.jpg"/>
+                <div class="bloque-2"></div></div>
+            <div class="bloque-1">
+                <img src="./images/programacion_04.png"/>
+                <div class="bloque-2"></div></div>
+        </div>
+        <div class="reto2">
+            
+        </div>
+        <div class="reto3">
+            
+        </div>
+
+    </div>
+</body>
+</html>

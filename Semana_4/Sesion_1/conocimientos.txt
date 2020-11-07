@@ -1,0 +1,17 @@
+-- Herencia
+
+Al darle un valor al padre que contenga los hijos, estos adquiriran las propiedades del padre.
+De no jalar los valores podemos llamar al valor "inherit"
+
+Si nosotros queremos personalizar a un hijo este debe ser reconozido como aparte
+
+
+-- Cascada
+
+ - Importancia: 
+
+ -- Unidades
+
+  - em : tamano que tenga el navegador, de tener una configuracion el padre lo aproximara dependiendo de esta (tamano de fuente)
+  - rem : independiente del tamano del padre (tamano de fuente)
+  

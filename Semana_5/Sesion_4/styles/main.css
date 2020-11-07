@@ -1,0 +1,233 @@
+/*
+--------------------- GLOBAL ---------------------
+*/
+
+body{
+    width: 80vw;
+    margin: 0 auto;
+}
+
+
+/*
+--------------------- HEADER ---------------------
+*/
+
+header{
+    width: inherit;
+    height: 50px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+header h1{
+    padding: 0px 15px;
+}
+
+.menu ul{
+    font-family: sans-serif;
+    display: flex;
+    list-style-type: none;
+}
+
+.menu li{
+    margin: 0px 15px;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+/*
+--------------------- SECCIONES ---------------------
+*/
+
+
+
+/*
+ABOUT ME
+*/
+
+.aboutme{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    margin:100px auto;
+    font-family:'Press Start 2P', cursive;
+    align-items: center;
+    justify-content: center;    
+}
+
+
+.am-1{
+    width: 40%;
+}
+
+.am-2{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile{
+    background-image: url(/images/img01.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 350px;
+    height: 350px;
+    border:10px solid #428ea1;
+    border-radius: 100%;
+}
+
+.aboutme h3{
+    font-size: 1rem;
+    padding: 5px 0;
+}
+
+.aboutme h2{
+    font-size: 1.5rem;
+    padding: 5px 0;
+}
+
+.aboutme h1{
+    font-size: 2rem;
+    color: lightseagreen;
+    padding: 5px 0 20px 0;
+}
+
+.p-am{
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.lateral-bar{
+    width: 20px;
+    background-color: rgb(142, 241, 241);
+    margin-right: 15px;
+}
+
+.aboutme p{
+    font-family:'Open Sans Condensed', sans-serif;
+    line-height: none;
+    font-size: 1.5rem;
+}
+
+.download-cv{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    padding: 15px 30px;
+    font-size: 1rem;
+    color: white;
+    background-color: rgb(100, 65, 226);
+    border-radius: 6px;
+}
+
+.list-social{
+    display: flex;
+    justify-content: center;
+}
+
+.list-social a{
+    font-family:'Open Sans Condensed', sans-serif;
+    line-height: none;
+    font-size: 1.5rem;    line-height: none;
+    font-size: 1.5rem;-family:'Open Sans Condensed', sans-serif;
+    line-height: none;
+    font-size: 1.5rem;font-size: 2.5rem;
+    display: block;
+    width:50px;
+    height: 50px;
+    text-align: center;
+    color: rgb(65, 75, 61);
+}
+
+/*
+PORTAFOLIO
+*/
+
+.portafolio h1{
+    font-family:'Press Start 2P', cursive;
+    color: deepskyblue;
+    text-align: center;
+    font-size: 1.5rem;
+    margin:40px 0;
+}
+
+.p-grid-container {
+    margin: 0 50px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 1rem;
+}
+.p-grid-container > div {
+    background: #EDE7F6;
+}
+
+.portafolio img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/*
+SERVICIOS
+*/
+
+.services h1{
+    font-family:'Press Start 2P', cursive;
+    color: deepskyblue;
+    text-align: center;
+    font-size: 1.5rem;
+    margin:40px 0;
+}
+
+.s-grid-container{
+    margin: 0 20%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 1rem;
+}
+
+.s-grid-container div{
+    height: 20vh;
+    background-color: mediumaquamarine;
+    border-radius: 10px;
+    border: 5px solid rgb(140, 228, 69);
+    position: relative;;
+}
+
+.s-grid-container i{
+    position:absolute;
+    top:20px;
+    left:20px;
+    color: white;
+    font-size: 2rem;
+}
+
+.s-grid-container p{
+    position:absolute;
+    bottom:20px;
+    right:0px;
+    background-color: rgb(140, 228, 69);
+    color:  rgb(68, 46, 168);
+    padding:10px 40px;
+    border-radius: 2px;
+}
+
+/*
+BLOG
+*/
+
+
+/*
+CONTACT
+*/
+
+
+/*
+ABOUT ME
+*/
