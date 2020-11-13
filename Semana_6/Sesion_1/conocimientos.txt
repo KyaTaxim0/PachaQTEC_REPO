@@ -1,0 +1,9 @@
+SASS
+
+Es un compilador para un mejor manejo del css.
+Brinda mas funcionalidades para la flexibilidad del disenio
+
+* Permite el uso de anidamiento.
+* El uso de un mismo valor en diferentes aspectos, para facilitar los cambios a futuro.
+
+El navegador no lee sass o scss, al generarse el css el navegador leera este, sin embargo es por el reflejo que se vera desde los previos archivos indicados.
