@@ -21,6 +21,13 @@ $color-third:red;
 $color-base:black;
 
 /*
+URL
+*/
+
+$url:'https://tupagina.com';
+
+
+/*
 SPACES
 */
 
@@ -126,4 +133,23 @@ MAIN
 
 .main{
     @extend %stylelayout;
+}
+
+
+/*
+FOOTER
+*/
+
+.icon-dog{
+    background-image: url("#{$url}/icon/dog");
+}
+
+
+.icon-cat{
+    background-image: url("#{$url}/icon/cat");
+}
+
+
+.icon-pig{
+    background-image: url("#{$url}/icon/pig");
 }

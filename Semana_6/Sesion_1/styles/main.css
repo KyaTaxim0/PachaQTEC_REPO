@@ -59,6 +59,9 @@ FONTS
 COLORS
 */
 /*
+URL
+*/
+/*
 SPACES
 */
 .header, .main {
@@ -147,4 +150,18 @@ HEADER
 /*
 MAIN
 */
+/*
+FOOTER
+*/
+.icon-dog {
+  background-image: url("https://tupagina.com/icon/dog");
+}
+
+.icon-cat {
+  background-image: url("https://tupagina.com/icon/cat");
+}
+
+.icon-pig {
+  background-image: url("https://tupagina.com/icon/pig");
+}
 /*# sourceMappingURL=main.css.map */
