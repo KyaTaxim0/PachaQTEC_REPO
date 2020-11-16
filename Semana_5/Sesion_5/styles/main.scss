@@ -1,0 +1,254 @@
+@import 'reset.scss';
+
+/*
+GLOBALS
+*/
+
+*{
+    font-family: Arial;
+}
+
+a{
+    text-decoration: none;
+}
+
+.c-main{
+    margin:0 10%;    
+}
+
+
+/*Creacion de Logo*/
+
+.container{
+    position: relative;
+    height: 30px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.left_c{
+    position: absolute;
+    background-color: rgb(21, 72, 102);
+    border: 2px solid rgb(21, 72, 102);
+    min-width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    left:0px
+}
+
+.right_c{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(21, 72, 102);
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    right:0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    p{
+        font-family: arial;
+        font-size: 14px;
+        color:rgb(21, 72, 102);
+        font-weight: bold;
+    }
+}
+
+/*HEADER*/
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 100px;
+    padding: 20px 50px;
+
+    ul{
+        display: flex;        
+    }
+
+    li{
+        margin: 0 10px;
+        font-family: Arial;
+    }
+}
+
+
+.principal-banner{
+    position: relative;
+    display: flex;
+    align-items: center;
+    background: url('/Semana_5/Sesion_5/images/coverv2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 250px;
+
+    .banner-text{
+        color: white;
+        position: absolute;
+        text-align: center;
+        margin: auto;
+
+        h1{
+            margin-bottom: 20px;
+        }
+    }
+}
+
+/*SECTIONS*/
+
+.s-search{
+    background-color: whitesmoke;
+    height:50px;
+    margin: 2.5% 0%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.form-search {
+
+    padding: 10px;
+    display: flex;
+    width: 100%;
+
+        button{
+            border:none;
+            background-color: transparent;
+            font-size: 1rem;
+        }
+
+        input{
+            border:none;
+            font-size: 1rem;
+            background-color: transparent;
+            width:100%;
+            padding-right: 10px;
+            color: rgb(99, 99, 99);
+        }
+
+}
+
+.first-popular{
+    display: flex;
+    margin-bottom: 20px;
+
+    .colum-1{
+        width: 50%;
+
+        img{
+            width:100%;
+            height: 100%;
+        }
+
+        .detail-container{
+            display: flex;
+            justify-content: space-between;
+
+            .detail-access{
+                display:flex;
+                align-items: center;
+
+                a{
+                    padding: 0px 10px;
+                }
+            }
+
+        }
+    }
+}
+
+.top3-popular{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+    article{
+        width: 32%;
+
+        img{
+            width: 100%;
+        }
+
+        .detail-container{
+            display: flex;
+            justify-content: space-between;
+
+            .detail-access{
+                display:flex;
+                align-items: center;
+
+                a{
+                    padding: 0px 10px;
+                }
+            }
+        }
+    }
+
+}
+
+.footer-p{
+    display: flex;
+    justify-content: end;
+    
+    a{
+        margin: 5px 0px;
+        text-decoration: none;
+    }
+}
+
+.p_grid-articles{
+    display: grid;
+    grid-template-columns: fit-content(40%) fit-content(60%);
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 1rem;
+    margin-bottom: 20px;
+
+    img{
+        width: 100%;
+    }
+
+    .detail-container{
+        display: flex;
+        justify-content: space-between;
+
+        .detail-access{
+            display:flex;
+            align-items: center;
+
+            a{
+                padding: 0px 10px;
+            }
+        }
+    }
+}
+
+.desplazar{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+    a{
+        margin: 0 10px;
+
+        i{
+            margin: 0 10px;
+        }
+    }
+}
+
+
+
+/*
+FOOTER
+*/
+
+.footer{
+    background-color: rgb(25, 58, 95);
+    border-radius: 0% 100px 0% 0%;
+    padding: 0 10%;
+}

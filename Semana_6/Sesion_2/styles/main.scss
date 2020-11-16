@@ -1,0 +1,51 @@
+$padding-global:20px;
+
+/*OPERADORES*/ 
+
+/*body{
+    padding: $padding-global;
+}
+
+header{
+    padding: $padding-global -10;
+}
+*/
+
+/*MIXING*/
+
+/*
+@mixin boxSpaces($spaceTop:0,$spaceRight:auto,$spaceBottom:0,$spaceLeft:auto) {
+    padding:$spaceTop $spaceRight $spaceBottom $spaceLeft;
+    margin:$spaceTop $spaceRight $spaceBottom $spaceLeft;
+
+}
+
+body{
+    @include boxSpaces(50px,80px,500px,20px);
+}
+*/
+
+/*FUNCIONES*/
+
+/*@function Porcentaje($num,$porcentaje){
+    @return ($num * $porcentaje)/100;
+}
+
+body{
+    width: #{Porcentaje(100,10)}#{%};
+}*/
+
+/*CONTENT BLOCK*/
+
+@mixin hover{
+    &:not([disabled]):hover{
+        @content;
+    }
+}
+
+.button{
+    border: 1px solid black;
+    @include hover{
+        border-width: 2px;
+    }
+}

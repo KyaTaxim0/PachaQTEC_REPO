@@ -1,0 +1,8 @@
+SASS
+
+* Operadores : se pueden realizar operaciones de +,-,*,/,%
+* Mixin: Define un estilo
+* Funcion : Recive parametros, los procesa y retorna un resultado
+   Podemos tener una funcion y un Mixin dentro de un Mixin
+* Content Block: Basicamente es agregar algo mas aaparte de lo ya establecido en Mixin o la funcion
+* Control de Flujo: 

@@ -5,231 +5,292 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
-    <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/main.css">
     <link rel="stylesheet" href="./fonts/css/all.css">
 </head>
 
 <body>
-    <header>
-        <h1>LOGO</h1>
+    <header class="header">
+        <div class="container">
+            <div class="left_c"></div>
+            <div class="right_c"><p>A</p></div>
+        </div>
         <nav>
             <ul>
-                <li>Home</li>
-                <li>Espectaculos</li>
-                <li>Deportes</li>
+                <li><a href="">Home</a></li>
+                <li><a href="">Espectaculos</a></li>
+                <li><a href="">Deportes</a></li>
             </ul>
         </nav>
     </header>
-    <main>
+    <main class="main">
         <div class="principal-banner">
-            <img>
-            <h1>Blog Shiro</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique quod sapiente porro! Repellat dolore,
-                itaque provident totam mollitia modi, libero eius, non adipisci commodi eum maxime facere quisquam
-                impedit pariatur.
-            </p>
+            <div class="banner-text">
+                <h1>Blog Shiro</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique quod sapiente porro! Repellat dolore,
+                    itaque provident totam mollitia modi, libero eius, non adipisci commodi eum maxime facere quisquam
+                    impedit pariatur.
+                </p>
+            </div>
         </div>
-        <section class="s-search">
-            <form class="form-search">
-                <div class="input-group">
-                    <button class="btn btn-primary"><i class="fas fa-search"></i></button>
-                    <input class="form-control form-text" maxlength="128" placeholder="Seach Article" size="15"
-                        type="text" />
-                </div>
-            </form>
-        </section>
-        <section class="s-popular">
-            <h2>POPULAR</h2>
-            <article class="first-popular">
-                <div class="colum-1">
-                    <h1>Most Popular</h1>
-                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius voluptatum temporibus error
-                        incidunt, sequi veniam ea asperiores in maxime nemo odio id ad itaque, earum magni enim pariatur
-                        inventore mollitia!</h4>
-                    <div class="detail-container">
-                        <div class="detail-article">
-                            <h5>Creator info</h5>
-                            <p>Nov 07,2020 5min read</p>
-                        </div>
-                        <div class="detail-access">
-                            <a href=""><i class="fas fa-bookmark"></i></a>
-                            <a href=""><i class="fas fa-share-alt"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="colum-1">
-                    <img src="" alt="">
-                </div>
-            </article>
-            <div class="top3-popular">
-                <article>
-                    <img src="" alt="">
-                    <div class="a-container">
-                        <h1>Top 1 popular</h1>
+        <div class="c-main">
+            <section class="s-search">
+                <form class="form-search">
+                        <button class="btn btn-primary"><i class="fas fa-search"></i></button>
+                        <input placeholder="Seach Article" type="text" />
+                </form>
+            </section>
+            <section class="s-popular">
+                <h2>POPULAR</h2>
+                <article class="first-popular">
+                    <div class="colum-1">
+                        <h1>Most Popular</h1>
                         <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius voluptatum temporibus error
                             incidunt, sequi veniam ea asperiores in maxime nemo odio id ad itaque, earum magni enim pariatur
                             inventore mollitia!</h4>
+                        <div class="detail-container">
+                            <div class="detail-article">
+                                <h5>Creator info</h5>
+                                <p>Nov 07,2020 5min read</p>
+                            </div>
+                            <div class="detail-access">
+                                <a href=""><i class="fas fa-bookmark"></i></a>
+                                <a href=""><i class="fas fa-share-alt"></i></a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="detail-container">
-                        <div class="detail-article">
-                            <h5>Creator info</h5>
-                            <p>Nov 07,2020 5min read</p>
-                        </div>
-                        <div class="detail-access">
-                            <a href=""><i class="fas fa-bookmark"></i></a>
-                            <a href=""><i class="fas fa-share-alt"></i></a>
-                        </div>
+                    <div class="colum-1">
+                        <img src="./images/a1.png" alt="">
                     </div>
                 </article>
-                <article>
-                    <img src="" alt="">
-                    <div class="a-container">
-                        <h1>Top 2 popular</h1>
-                        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius voluptatum temporibus error
-                            incidunt, sequi veniam ea asperiores in maxime nemo odio id ad itaque, earum magni enim pariatur
-                            inventore mollitia!</h4>
-                    </div>
-                    <div class="detail-container">
-                        <div class="detail-article">
-                            <h5>Creator info</h5>
-                            <p>Nov 07,2020 5min read</p>
+                <div class="top3-popular">
+                    <article>
+                        <img src="./images/a_11.png" alt="">
+                        <div class="a-container">
+                            <h1>Top 1 popular</h1>
+                            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius voluptatum temporibus error
+                                incidunt, sequi veniam ea asperiores in maxime nemo odio id ad itaque, earum magni enim
+                                pariatur
+                                inventore mollitia!</h4>
                         </div>
-                        <div class="detail-access">
-                            <a href=""><i class="fas fa-bookmark"></i></a>
-                            <a href=""><i class="fas fa-share-alt"></i></a>
+                        <div class="detail-container">
+                            <div class="detail-article">
+                                <h5>Creator info</h5>
+                                <p>Nov 07,2020 5min read</p>
+                            </div>
+                            <div class="detail-access">
+                                <a href=""><i class="fas fa-bookmark"></i></a>
+                                <a href=""><i class="fas fa-share-alt"></i></a>
+                            </div>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./images/a_12.png" alt="">
+                        <div class="a-container">
+                            <h1>Top 2 popular</h1>
+                            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius voluptatum temporibus error
+                                incidunt, sequi veniam ea asperiores in maxime nemo odio id ad itaque, earum magni enim
+                                pariatur
+                                inventore mollitia!</h4>
+                        </div>
+                        <div class="detail-container">
+                            <div class="detail-article">
+                                <h5>Creator info</h5>
+                                <p>Nov 07,2020 5min read</p>
+                            </div>
+                            <div class="detail-access">
+                                <a href=""><i class="fas fa-bookmark"></i></a>
+                                <a href=""><i class="fas fa-share-alt"></i></a>
+                            </div>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./images/a_13.png" alt="">
+                        <div class="a-container">
+                            <h1>Top 3 popular</h1>
+                            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius voluptatum temporibus error
+                                incidunt, sequi veniam ea asperiores in maxime nemo odio id ad itaque, earum magni enim
+                                pariatur
+                                inventore mollitia!</h4>
+                        </div>
+                        <div class="detail-container">
+                            <div class="detail-article">
+                                <h5>Creator info</h5>
+                                <p>Nov 07,2020 5min read</p>
+                            </div>
+                            <div class="detail-access">
+                                <a href=""><i class="fas fa-bookmark"></i></a>
+                                <a href=""><i class="fas fa-share-alt"></i></a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="footer-p">
+                <a href="#">SEE ALL POPULAR ARTICLE</a>
+                </div>
+            </section>
+            <hr>
+            <section class="s-articles">
+                <h2>ALL ARTICLES</h2>
+                <div class="p_grid-articles">
+                    <div><img src="./images/a_21.png" alt=""></div>
+                    <div class="a-article">
+                        <div class="a-container">
+                            <h1>Top 3 popular</h1>
+                            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius voluptatum temporibus error
+                                incidunt, sequi veniam ea asperiores in maxime nemo odio id ad itaque, earum magni enim
+                                pariatur
+                                inventore mollitia!</h4>
+                        </div>
+                        <div class="detail-container">
+                            <div class="detail-article">
+                                <h5>Creator info</h5>
+                                <p>Nov 07,2020 5min read</p>
+                            </div>
+                            <div class="detail-access">
+                                <a href=""><i class="fas fa-bookmark"></i></a>
+                                <a href=""><i class="fas fa-share-alt"></i></a>
+                            </div>
                         </div>
                     </div>
-                </article>
-                <article>
-                    <img src="" alt="">
-                    <div class="a-container">
-                        <h1>Top 3 popular</h1>
-                        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius voluptatum temporibus error
-                            incidunt, sequi veniam ea asperiores in maxime nemo odio id ad itaque, earum magni enim pariatur
-                            inventore mollitia!</h4>
-                    </div>
-                    <div class="detail-container">
-                        <div class="detail-article">
-                            <h5>Creator info</h5>
-                            <p>Nov 07,2020 5min read</p>
+                    <div><img src="./images/a_22.png" alt=""></div>
+                    <div class="a-article">
+                        <div class="a-container">
+                            <h1>Top 3 popular</h1>
+                            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius voluptatum temporibus error
+                                incidunt, sequi veniam ea asperiores in maxime nemo odio id ad itaque, earum magni enim
+                                pariatur
+                                inventore mollitia!</h4>
                         </div>
-                        <div class="detail-access">
-                            <a href=""><i class="fas fa-bookmark"></i></a>
-                            <a href=""><i class="fas fa-share-alt"></i></a>
+                        <div class="detail-container">
+                            <div class="detail-article">
+                                <h5>Creator info</h5>
+                                <p>Nov 07,2020 5min read</p>
+                            </div>
+                            <div class="detail-access">
+                                <a href=""><i class="fas fa-bookmark"></i></a>
+                                <a href=""><i class="fas fa-share-alt"></i></a>
+                            </div>
                         </div>
                     </div>
-                </article>
-            </div>
-            <a href="#">SEE ALL</a>
-        </section>
-        <hr>
-        <section class="s-articles">
-            <h2>ALL ARTICLES</h2>
-            <div class="more-articles">
-                <div><img src="" alt=""></div>
-                <div class="a-article">
-                    <div class="a-container">
-                        <h1>Top 3 popular</h1>
-                        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius voluptatum temporibus error
-                            incidunt, sequi veniam ea asperiores in maxime nemo odio id ad itaque, earum magni enim pariatur
-                            inventore mollitia!</h4>
-                    </div>
-                    <div class="detail-container">
-                        <div class="detail-article">
-                            <h5>Creator info</h5>
-                            <p>Nov 07,2020 5min read</p>
+                    <div><img src="./images/a_23.png" alt=""></div>
+                    <div class="a-article">
+                        <div class="a-container">
+                            <h1>Top 3 popular</h1>
+                            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius voluptatum temporibus error
+                                incidunt, sequi veniam ea asperiores in maxime nemo odio id ad itaque, earum magni enim
+                                pariatur
+                                inventore mollitia!</h4>
                         </div>
-                        <div class="detail-access">
-                            <a href=""><i class="fas fa-bookmark"></i></a>
-                            <a href=""><i class="fas fa-share-alt"></i></a>
+                        <div class="detail-container">
+                            <div class="detail-article">
+                                <h5>Creator info</h5>
+                                <p>Nov 07,2020 5min read</p>
+                            </div>
+                            <div class="detail-access">
+                                <a href=""><i class="fas fa-bookmark"></i></a>
+                                <a href=""><i class="fas fa-share-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div><img src="./images/a_24.png" alt=""></div>
+                    <div class="a-article">
+                        <div class="a-container">
+                            <h1>Top 3 popular</h1>
+                            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius voluptatum temporibus error
+                                incidunt, sequi veniam ea asperiores in maxime nemo odio id ad itaque, earum magni enim
+                                pariatur
+                                inventore mollitia!</h4>
+                        </div>
+                        <div class="detail-container">
+                            <div class="detail-article">
+                                <h5>Creator info</h5>
+                                <p>Nov 07,2020 5min read</p>
+                            </div>
+                            <div class="detail-access">
+                                <a href=""><i class="fas fa-bookmark"></i></a>
+                                <a href=""><i class="fas fa-share-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div><img src="./images/a_25.png" alt=""></div>
+                    <div class="a-article">
+                        <div class="a-container">
+                            <h1>Top 3 popular</h1>
+                            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius voluptatum temporibus error
+                                incidunt, sequi veniam ea asperiores in maxime nemo odio id ad itaque, earum magni enim
+                                pariatur
+                                inventore mollitia!</h4>
+                        </div>
+                        <div class="detail-container">
+                            <div class="detail-article">
+                                <h5>Creator info</h5>
+                                <p>Nov 07,2020 5min read</p>
+                            </div>
+                            <div class="detail-access">
+                                <a href=""><i class="fas fa-bookmark"></i></a>
+                                <a href=""><i class="fas fa-share-alt"></i></a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div><img src="" alt=""></div>
-                <div class="a-article">
-                    <div class="a-container">
-                        <h1>Top 3 popular</h1>
-                        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius voluptatum temporibus error
-                            incidunt, sequi veniam ea asperiores in maxime nemo odio id ad itaque, earum magni enim pariatur
-                            inventore mollitia!</h4>
-                    </div>
-                    <div class="detail-container">
-                        <div class="detail-article">
-                            <h5>Creator info</h5>
-                            <p>Nov 07,2020 5min read</p>
-                        </div>
-                        <div class="detail-access">
-                            <a href=""><i class="fas fa-bookmark"></i></a>
-                            <a href=""><i class="fas fa-share-alt"></i></a>
-                        </div>
-                    </div>
+                <div class="desplazar">
+                    <a href="#"><i class="fas fa-arrow-left"></i>Old Post</a>
+                    <a href="#">New Post<i class="fas fa-arrow-right"></i></a>
                 </div>
-                <div><img src="" alt=""></div>
-                <div class="a-article">
-                    <div class="a-container">
-                        <h1>Top 3 popular</h1>
-                        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius voluptatum temporibus error
-                            incidunt, sequi veniam ea asperiores in maxime nemo odio id ad itaque, earum magni enim pariatur
-                            inventore mollitia!</h4>
-                    </div>
-                    <div class="detail-container">
-                        <div class="detail-article">
-                            <h5>Creator info</h5>
-                            <p>Nov 07,2020 5min read</p>
-                        </div>
-                        <div class="detail-access">
-                            <a href=""><i class="fas fa-bookmark"></i></a>
-                            <a href=""><i class="fas fa-share-alt"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div><img src="" alt=""></div>
-                <div class="a-article">
-                    <div class="a-container">
-                        <h1>Top 3 popular</h1>
-                        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius voluptatum temporibus error
-                            incidunt, sequi veniam ea asperiores in maxime nemo odio id ad itaque, earum magni enim pariatur
-                            inventore mollitia!</h4>
-                    </div>
-                    <div class="detail-container">
-                        <div class="detail-article">
-                            <h5>Creator info</h5>
-                            <p>Nov 07,2020 5min read</p>
-                        </div>
-                        <div class="detail-access">
-                            <a href=""><i class="fas fa-bookmark"></i></a>
-                            <a href=""><i class="fas fa-share-alt"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div><img src="" alt=""></div>
-                <div class="a-article">
-                    <div class="a-container">
-                        <h1>Top 3 popular</h1>
-                        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius voluptatum temporibus error
-                            incidunt, sequi veniam ea asperiores in maxime nemo odio id ad itaque, earum magni enim pariatur
-                            inventore mollitia!</h4>
-                    </div>
-                    <div class="detail-container">
-                        <div class="detail-article">
-                            <h5>Creator info</h5>
-                            <p>Nov 07,2020 5min read</p>
-                        </div>
-                        <div class="detail-access">
-                            <a href=""><i class="fas fa-bookmark"></i></a>
-                            <a href=""><i class="fas fa-share-alt"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="desplazar">
-                <a href="#"><i class="fas fa-arrow-left"></i>Old Post</a>
-                <a href="#">New Post<i class="fas fa-arrow-right"></i></a>
-            </div>
-        </section>
+            </section>
+        </div>
     </main>
-    <footer></footer>
+    <footer class="footer">
+        <div class="info-job">
+            <div>
+                <h2>Interesado en trabajar con nosotros?</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit, soluta? Quasi blanditiis non ullam!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum amet laudantium sed itaque, nemo ipsum
+                    aliquid id! Veritatis non nulla a totam reiciendis deleniti sit optio iste, asperiores
+                    necessitatibus cumque.</p>
+                Ullam vitae, amet obcaecati aspernatur dolorem voluptatibus facere reprehenderit, quam vero, beatae
+                odit! Voluptatum, odio sequi.</p>
+            </div>
+            <div>
+                <a href="">Let's Talk</a>
+            </div>
+        </div>
+        <hr>
+        <div class="info-us">
+            <div>
+                <nav>
+                    <ul>
+                        <li>LOGO</li>
+                        <li>A. Lorem ipsum, dolor sit amet consectetur adipisicing elit</li>
+                        <li>T. +62-812-7313-4321</li>
+                        <li>E hello.aafrian@gmail.com</li>
+                    </ul>
+                </nav>
+                <nav>
+                    <ul>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">What We Do</a></li>
+                        <li><a href="">Project</a></li>
+                        <li><a href="">How It Work With Us</a></li>
+                    </ul>
+                </nav>
+                <nav>
+                    <ul>
+                        <li><a href="">Follow Us</a></li>
+                        <li><a href="">Instagram</a></li>
+                        <li><a href="">Facebook</a></li>
+                        <li><a href="">Linkedin</a></li>
+                        <li><a href="">Youtube</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div>
+                <p>2020 © Afrianska. Todos los derechos reservados</p>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>

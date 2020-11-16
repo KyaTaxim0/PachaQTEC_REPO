@@ -7,3 +7,13 @@ Brinda mas funcionalidades para la flexibilidad del disenio
 * El uso de un mismo valor en diferentes aspectos, para facilitar los cambios a futuro.
 
 El navegador no lee sass o scss, al generarse el css el navegador leera este, sin embargo es por el reflejo que se vera desde los previos archivos indicados.
+
+
+* Variables
+* Anidamiento
+* Selector padre
+* Parciales (@import)
+    sin guion (lo compila, va a generar un archivo css)
+    con guion (lo compilar apartir del main,no genera un archivo css)
+* Reglas @extend herencia
+* Interpolacion , variable + texto
