@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RWD</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            color: white;
+        }   
+
+        body{
+            font-family: arial;
+        }
+
+        header,footer{
+            background-color: green;
+            padding: 20px;
+        }
+
+        header .menu{
+            display: none;
+        }
+
+        main{
+            background-color: red;
+            padding: 20px;
+        }
+
+        .container{
+            max-width: 1024px;
+            width: 100%;
+            margin: auto;
+        }
+
+        /*helpers*/
+
+        .flex{
+            display: flex;
+        }
+
+        .justify-between {
+            justify-content: space-between;
+        }
+
+        .item-centers{
+            align-items: center;
+        }
+
+        ul{
+            list-style: none;
+        }
+
+        a{
+            text-decoration: none;
+            color: inherit;
+        }
+
+        /*menu*/
+        nav{
+            font-size: 13px;
+        }
+
+        nav ul li{
+            margin: 0 10px;;
+        }
+
+        nav a:hover{
+            text-decoration: underline;
+        }
+
+        
+       @media (min-width: 0px) and (max-width: 480px){
+            nav{
+                display: none;
+            }
+        
+            header .menu{
+                display: block;
+            }
+       }
+
+       @media (min-width: 480px) and (max-width: 680px){
+            header{
+                font-size: 16px;
+                background: blue;
+                color: white;
+            }
+
+            nav a{
+                color: white;;
+            }
+       }
+
+       @media (min-width: 480px) and (max-width: 680px){
+            header{
+                font-size: 16px;
+                background: orange;
+                color: blue;
+            }
+
+            nav a{
+                color: blue;
+            }
+       }
+
+
+        /*DESKTOP
+        @media (max-width: 1024px){
+            header{
+                font-size: 16px;
+                background: pink;
+                color: black;
+            }
+
+            nav a{
+                color: black;
+            }
+        }
+
+        TABLET
+        @media (max-width: 880px){
+            header{
+                font-size: 16px;
+                background: orange;
+                color: blue;
+            }
+
+            nav a{
+                color: blue;
+            }
+        }
+
+        TABLET SMALL
+        @media (max-width: 680px){
+            header{
+                font-size: 16px;
+                background: blue;
+                color: white;
+            }
+
+            nav a{
+                color: white;;
+            }
+        }
+
+        TABLET XSMALL
+        @media (max-width: 480px){
+            nav{
+                display: none;
+            }
+
+            header .menu{
+                display: block;
+            }
+        }
+        */
+
+    </style>
+</head>
+<body>
+    <div class="container">
+    <header class="flex justify-between item-centers">
+        <a href="LOGO"></a>
+        <nav>
+            <ul class="flex item-centers">
+                <li><a href="">Nosotros</a></li>
+                <li><a href="">Servicios</a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+            </ul>
+        </nav>
+        <div class="menu">
+            MENU
+        </div>
+    </header>
+    <main>
+        MAIN
+    </main>
+    <footer>
+        FOOTER
+    </footer>
+    </div>
+</body>
+</html>

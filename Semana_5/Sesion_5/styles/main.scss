@@ -19,43 +19,7 @@ a{
 
 /*Creacion de Logo*/
 
-.container{
-    position: relative;
-    height: 30px;
-    width: 40px;
-    display: flex;
-    align-items: center;
-}
 
-.left_c{
-    position: absolute;
-    background-color: rgb(21, 72, 102);
-    border: 2px solid rgb(21, 72, 102);
-    min-width: 20px;
-    height: 20px;
-    border-radius: 100%;
-    left:0px
-}
-
-.right_c{
-    position: absolute;
-    background-color: rgb(255, 255, 255);
-    border: 2px solid rgb(21, 72, 102);
-    width: 20px;
-    height: 20px;
-    border-radius: 100%;
-    right:0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    p{
-        font-family: arial;
-        font-size: 14px;
-        color:rgb(21, 72, 102);
-        font-weight: bold;
-    }
-}
 
 /*HEADER*/
 
@@ -66,6 +30,44 @@ a{
     max-height: 100px;
     padding: 20px 50px;
 
+    .container{
+        position: relative;
+        height: 30px;
+        width: 40px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .left_c{
+        position: absolute;
+        background-color: #316099;
+        border: 2px solid #316099;
+        min-width: 20px;
+        height: 20px;
+        border-radius: 100%;
+        left:0px
+    }
+    
+    .right_c{
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        border: 2px solid #316099;
+        width: 20px;
+        height: 20px;
+        border-radius: 100%;
+        right:0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        p{
+            font-family: arial;
+            font-size: 14px;
+            color:#316099;
+            font-weight: bold;
+        }
+    }
+
     ul{
         display: flex;        
     }
@@ -73,15 +75,17 @@ a{
     li{
         margin: 0 10px;
         font-family: Arial;
+        a{
+            color: black;
+        }
     }
 }
 
 
 .principal-banner{
-    position: relative;
     display: flex;
     align-items: center;
-    background: url('/Semana_5/Sesion_5/images/coverv2.jpg');
+    background: url('./images/coverv2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -89,9 +93,8 @@ a{
 
     .banner-text{
         color: white;
-        position: absolute;
         text-align: center;
-        margin: auto;
+        margin: 0 20%;
 
         h1{
             margin-bottom: 20px;
@@ -100,6 +103,12 @@ a{
 }
 
 /*SECTIONS*/
+
+.main{
+    a{
+        color:#356EAD;
+    }
+}
 
 .s-search{
     background-color: whitesmoke;
@@ -191,6 +200,7 @@ a{
 
 }
 
+
 .footer-p{
     display: flex;
     justify-content: end;
@@ -203,7 +213,7 @@ a{
 
 .p_grid-articles{
     display: grid;
-    grid-template-columns: fit-content(40%) fit-content(60%);
+    grid-template-columns: 40% 60%;
     grid-template-rows: repeat(5, 1fr);
     grid-gap: 1rem;
     margin-bottom: 20px;
@@ -248,7 +258,99 @@ FOOTER
 */
 
 .footer{
-    background-color: rgb(25, 58, 95);
+    background-color: #316099;
     border-radius: 0% 100px 0% 0%;
     padding: 0 10%;
+    color: white;
+    font-family: Arial;
+
+    a{
+        color:white;
+    }
+
+    .info-job{
+        display: flex;
+
+        .column{
+            width: 50%;
+            margin: 5% 0%;
+
+            a{
+                padding: 10px 30px;
+                background-color: #5A98D0;
+                border-radius: 6px;
+            }
+            
+        }
+
+        .r_content{
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+        }
+    }
+    
+    .info-us{
+        display: flex;
+        justify-content: space-around;
+
+        nav{
+            width: 32%;
+            margin: 5% 0%;
+
+            .container{
+                position: relative;
+                height: 30px;
+                width: 40px;
+                display: flex;
+                align-items: center;
+                margin-bottom: 10px;
+
+                .name_logo{
+                    margin-left: 50px;
+                }
+            }
+            
+            .left_c{
+                position: absolute;
+                background-color: #98C3E8;
+                border: 2px solid #316099;
+                min-width: 20px;
+                height: 20px;
+                border-radius: 100%;
+                left:0px
+            }
+            
+            .right_c{
+                position: absolute;
+                background-color: rgb(255, 255, 255);
+                border: 2px solid #316099;
+                width: 20px;
+                height: 20px;
+                border-radius: 100%;
+                right:0px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            
+                p{
+                    font-family: arial;
+                    font-size: 14px;
+                    color:#316099;
+                    font-weight: bold;
+                }
+            }
+
+            li{
+                margin-bottom: 10px;
+            }
+            
+        }
+    }
+
+    .rights{
+        padding-bottom: 10%;
+    }
 }
+
+
