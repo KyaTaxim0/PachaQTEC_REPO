@@ -1,0 +1,31 @@
+.search{
+    background-color: whitesmoke;
+    height:50px;
+    margin: 2.5% 0%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.search__form {
+
+    padding: 10px;
+    display: flex;
+    width: 100%;
+
+        button{
+            border:none;
+            background-color: transparent;
+            font-size: 1rem;
+        }
+
+        input{
+            border:none;
+            font-size: 1rem;
+            background-color: transparent;
+            width:100%;
+            padding-right: 10px;
+            color: rgb(99, 99, 99);
+        }
+
+}

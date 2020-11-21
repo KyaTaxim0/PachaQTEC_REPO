@@ -1,0 +1,25 @@
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background: url('./images/cover.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;*/
+    background-color: map-get($colors,"darkBlue_1");
+    min-height: 250px; 
+}
+
+.banner__text{
+    color: white;
+    text-align: center;
+    margin: 0 15%;
+
+    h1{
+        margin-bottom: 20px;
+        font: map-get($h1 , "bannerL");
+    }
+    p{
+        font:map-get($p , "bannerL" );
+    }
+}

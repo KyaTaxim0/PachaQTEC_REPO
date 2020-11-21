@@ -1,0 +1,48 @@
+
+.logo{
+    position: relative;
+    height: 30px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.logo__left{
+    position: absolute;
+    background-color: map-get($colors,"darkBlue_1");
+    border: 2px solid map-get($colors,"darkBlue_1");
+    min-width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    left:0px
+}
+
+.logo__right{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid map-get($colors,"darkBlue_1");
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    right:0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    p{
+        font-family: arial;
+        font-size: 14px;
+        color:map-get($colors,"darkBlue_1");
+        font-weight: bold;
+    }
+}
+
+.logo__left--footer{
+    background-color: map-get($colors,"lightBlue_1");
+    border: 2px solid map-get($colors,"darkBlue_1");
+}
+
+.logo__right--footer{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid map-get($colors,"darkBlue_1");
+}

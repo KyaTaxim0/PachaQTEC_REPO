@@ -1,0 +1,24 @@
+.detailArticle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    h5{
+        font:map-get($h5, "detailL");
+        color: map-get($colors , "darkBlue_2" );
+    }
+
+    p{
+        font:map-get($p, "detailL");
+        color:map-get($colors , "lowBlack_1" );
+        margin: 0;
+    }
+}
+
+.detailArticle__access{
+    display:flex;
+
+    a{
+        padding: 0px 10px;
+    }
+}
