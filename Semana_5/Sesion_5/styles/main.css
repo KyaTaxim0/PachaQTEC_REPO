@@ -211,7 +211,7 @@ table {
   padding: 0px 10px;
 }
 
-/*MEDIA*/
+/*MOBILE XS*/
 @media (min-width: 0px) and (max-width: 480px) {
   .header {
     padding: 20px 15px;
@@ -273,6 +273,7 @@ table {
   }
 }
 
+/*TABLET S*/
 @media (min-width: 480px) and (max-width: 1260px) {
   .header {
     padding: 20px 50px;
@@ -344,6 +345,7 @@ table {
   }
 }
 
+/*DESKTOP L*/
 @media (min-width: 1260px) {
   .header {
     padding: 20px 50px;
@@ -417,11 +419,11 @@ table {
 /*
 GLOBALS
 */
-* {
+body {
   font-family: Arial;
 }
 
-a {
+body a {
   text-decoration: none;
 }
 
