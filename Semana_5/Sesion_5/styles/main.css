@@ -120,11 +120,10 @@ table {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  /*background: url('./images/cover.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;*/
-  background-color: #316099;
+  background: url("../images/coverv2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   min-height: 250px;
 }
 
