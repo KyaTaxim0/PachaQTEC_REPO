@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function esMayorQue18(edad){
+            debugger; // sige el procedimiento desde inicio de la funcion
+
+            const edadNumber=18;
+            if(edad>edadNumber){
+                return true;
+            }
+
+            return false;
+        }
+
+        function main(){
+            let inputEdad = prompt('Ingresa tu edad');
+            console.log(esMayorQue18(inputEdad));
+        }
+
+        main();
+    </script>
+</body>
+</html>

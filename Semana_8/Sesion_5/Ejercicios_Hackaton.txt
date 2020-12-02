@@ -1,0 +1,389 @@
+1.Implementar un algoritmo que reciba 2 argumentos y los sume, el resultado se deberá imprimir en pantalla
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Proceso  Suma
+	
+	Definir SumaT Como Real
+	
+	Escribir "Numero 1"
+	Leer num1
+	
+	Escribir "Numero 2"
+	Leer num2
+	
+	SumaT = num1 + num2
+	
+	Imprimir "La suma de los numeros ingresados es:" SumaT
+	
+FinProceso
+___________________________________________________________________________________________________________________________________________________________________________
+
+2.Un estudiante realiza 4 exámenes, calcular el promedio de estos
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Proceso  Promedio
+	
+	Dimension  PromF[4]
+	Definir Avg Como Real
+	
+	SumaN <- 0
+	
+	Para i<-1 Hasta 4 Hacer
+		Escribir "Ingrese la nota ",i,":"
+		Leer PromF[i]
+		SumaN = SumaN + PromF[i]
+	FinPara
+	
+	Avg=SumaN/4
+	
+	Escribir "Tu Promedio Final es:",Avg
+	
+FinProceso
+___________________________________________________________________________________________________________________________________________________________________________
+
+3.Calcular el área de un rectángulo
+4.Calcular el área de un triángulo
+5.Calcular el área de una circunferencia
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Proceso  areas
+	
+	Escribir "1.Rectangulo"
+	Escribir "2.Triangulo"
+	Escribir "3.Circunferencia"
+	
+	Escribir "Indica un numero para conocer su area:"
+	Leer op
+	
+	Segun op Hacer
+		1:
+			Escribir "Ingresa la variable Base:"
+			Leer baseR
+			
+			Escribir "Ingresa la variable Altura:"
+			Leer alturaR
+			
+			Imprimir "El area del Rectangulo es:" baseR*alturaR
+		2:
+			Escribir "Ingresa la variable Base:"
+			Leer baseT
+			
+			Escribir "Ingresa la variable Altura:"
+			Leer alturaT
+			
+			Imprimir "El area del Triangulo es:" (baseT*alturaT)/2
+		3:
+			Escribir "Ingresa la variable Radio:"
+			Leer radioC
+			
+			piC<-3.14
+			
+			Imprimir "El area de la Circunferencia es:" piC*(radioC^2)
+			
+		De Otro Modo:
+			Escribir "No existe la operacion indicada"
+	Fin Segun
+		
+FinProceso
+___________________________________________________________________________________________________________________________________________________________________________
+
+6.Determinar el sueldo semanal de un trabajador basándose en
+sus horas trabajadas y su salario de hora hombre 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Proceso  sueldoAprox
+	Definir  salario Como Real
+	Definir horas Como Real
+	Definir sumaTotal Como Real
+	Definir  sueldoSem Como Real
+	
+	sumaTotal <-	0
+	dia <- 0
+	
+	Mientras dia < 7 Hacer
+		
+		Escribir  "Horas trabajadas:" dia
+		Leer horas
+		
+		Escribir "Salario del dia:" dia
+		Leer salario
+		
+		sumaTotal=sumaTotal+horas*salario
+		
+		dia=dia+1
+	Fin Mientras
+	
+	sueldoSem=sumaTotal
+	
+	Escribir "Sueldo Semanal:" sueldoSem
+	
+FinProceso
+___________________________________________________________________________________________________________________________________________________________________________
+
+7.Una modista, para realizar sus prendas de vestir, encarga 
+las telas al extranjero. Para cada pedido, tiene que proporcionar 
+las medidas de la tela en pulgadas, pero ella generalmente las tiene 
+en metros. Realice un algoritmo para ayudar a resolver el problema, 
+determinando cuantas pulgadas debe pedir con base en los metros 
+que requiere. Represéntelo mediante el diagrama de flujo y el 
+pseudocódigo (1 pulgada = 0.0254 m).
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Proceso  metrosPulgadas
+	
+	Dimension Pedidos[50]
+	
+	Escribir "Ingresa el numero de pedidos a calcular:"
+	Leer n
+	
+	Para i<-1 Hasta n Hacer
+		Escribir "Ingresa medida del Pedido ",i," en Metros:"
+		Leer Pedidos[i]
+	FinPara
+	
+	Para i<-1 Hasta n Hacer
+		Escribir "Pedido ",i," en Pulgadas:",Pedidos[i] * 39.37
+	FinPara
+		
+FinProceso
+___________________________________________________________________________________________________________________________________________________________________________
+
+8.Una empresa importadora desea determinar cuántos dólares puede 
+adquirir con "x"" cantidad de dinero peruano
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Proceso  solDolar
+	
+	Escribir "Valor del Dolar Compra: 3.601"
+	Escribir "Valor del Dolar Venta: 3.609"
+	
+	Definir Rpta Como Caracter
+	
+	Escribir "¿Desea calcular en soles?, escriba Si o No:"
+	Leer Rpta
+	
+	Mientras Rpta = "Si" Hacer
+		
+		Escribir "Ingresa el monto en S/. :"
+		Leer qty
+		
+		Escribir "Monto en $ : " qty * 3.601
+		Escribir "¿Desea continuar?, escriba Si o No:"
+		Leer Rpta
+	Fin Mientras
+
+FinProceso
+___________________________________________________________________________________________________________________________________________________________________________
+
+9.Una empresa que contrata personal requiere determinar la edad de 
+las personas que solicitan trabajo, pero cuando se les realiza 
+la entrevista sólo se les pregunta el año en que nacieron
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Proceso  edades
+	
+	Dimension Nombres[50]
+	Dimension Anios[50]
+		
+	Escribir "Numero de persona entrevistadas"
+	Leer n
+		
+	Para i<-1 Hasta n Hacer
+		Escribir "Nombre de Entrevistado ",i," :"
+		Leer Nombres[i]
+		Escribir "Anio de Nacimiento de Entrevistado ",i," :"
+		Leer Anios[i]
+	FinPara
+	
+	Escribir "Lista de entrevistados y sus edades"
+	
+	Para i<-1 Hasta n Hacer
+		Escribir Nombres[i]," tiene :",2020 - Anios[i], " anios."
+	FinPara
+	
+FinProceso
+___________________________________________________________________________________________________________________________________________________________________________
+
+10.Se tiene el nombre y la edad de tres personas. Se desea saber 
+el nombre y la edad de la persona de menor edad
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Proceso  hallarMenor
+	
+	Dimension Nombres[3]
+	Dimension Edades[3]
+	
+	Para i<-1 Hasta 3 Hacer
+		Escribir "Nombre de persona ",i," :"
+		Leer Nombres[i]
+		Escribir "Edad de persona ",i," :"
+		Leer Edades[i]
+	FinPara
+	
+	menors <- Edades[1]
+	pmenors <- Nombres[1]
+	
+	
+	Para i<-1 Hasta 3 Hacer
+		
+		Si menors>Edades[i] Entonces
+			menors <- Edades[i]
+			pmenors <- Nombres[i]
+		Fin Si
+		
+	Fin Para
+	
+	Escribir "La persona con menor es :", pmenors
+	Escribir "Su edad es:",menors
+	
+	
+FinProceso
+
+___________________________________________________________________________________________________________________________________________________________________________
+
+11.Se les dará un bono por antigüedad a los empleados de una tienda. 
+Si tienen un año, se les dará $100; si tienen 2 años, $200, y así 
+sucesivamente hasta los 5 años. Para los que tengan más de 5, el 
+bono será de $1000. Realice un algoritmo y represéntelo ,que 
+permita determinar el bono que recibirá un trabajador
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Proceso  bono
+	
+	Dimension Nombres[50]
+	Dimension Anios[50]
+	
+	Escribir "# Personas:"
+	Leer n
+	
+	Para i<-1 Hasta n Hacer
+		Escribir "Nombre de Empleado ",i," :"
+		Leer Nombres[i]
+		Escribir "Anios Laborando ",i," :"
+		Leer Anios[i]
+	FinPara
+	
+	Escribir "Lista de empleados y sus bonos"
+	
+	Para i<-1 Hasta n Hacer
+		Segun Anios[i] Hacer
+			1:
+				Escribir Nombres[i]," tiene : $100"
+			2:
+				Escribir Nombres[i]," tiene : $200"
+			3:
+				Escribir Nombres[i]," tiene : $300"
+			4:
+				Escribir Nombres[i]," tiene : $400"
+			5:
+				Escribir Nombres[i]," tiene : $500"
+			De Otro Modo:
+				Escribir Nombres[i]," tiene : $1000"
+		Fin Segun
+	FinPara
+	
+FinProceso
+___________________________________________________________________________________________________________________________________________________________________________
+
+12.Un profesor tiene un salario inicial de $1500, y recibe un 
+incremento de 10 % anual durante 6 años. ¿Cuál es su salario al 
+cabo de 6 años? ¿Qué salario ha recibido en cada uno de los 6 años? 
+Realice el algoritmo y representan la solución, utilizando el cicloapropiado
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Proceso  profeSalario
+	
+	salarioIni <- 1500
+	
+	Para i<-1 Hasta 6 Hacer
+		salarioIni <- salarioIni*0.1 + salarioIni
+		Escribir "Salario al finalizar el ",i," Anio:" salarioIni
+	FinPara
+		
+FinProceso
+
+___________________________________________________________________________________________________________________________________________________________________________
+
+13.Realice un algoritmo para leer las calificaciones de N alumnos y 
+determine el número de aprobados y reprobados
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Proceso  aprobados
+	
+	Dimension Nombres[100]
+	Dimension Notas[100]
+	
+	Escribir "# Alumnos:"
+	Leer n
+	
+	Para i<-1 Hasta n Hacer
+		Escribir "Nombre de Alumno ",i," :"
+		Leer Nombres[i]
+		Escribir "Nota ",i," :"
+		Leer Notas[i]
+	FinPara
+	
+	Escribir "Lista de empleados y sus bonos"
+	
+	Para i<-1 Hasta n Hacer
+		Si Notas[i]>11 Entonces
+			Escribir Nombres[i]," con nota: ",Notas[i]," APROBO"
+		SiNo
+			Escribir Nombres[i]," con nota: ",Notas[i]," DESAPROBO"
+		Fin Si
+				
+	FinPara
+	
+FinProceso
+___________________________________________________________________________________________________________________________________________________________________________
+
+14.Una compañía, fabrica focos de colores (verdes, blancos y rojos). 
+Se desea contabilizar, de un lote de N focos, el número de focos de 
+cada color que hay en existencia
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Proceso  inventario
+	
+	Dimension Colores[50]
+	
+	Escribir "# Focos:"
+	Leer n
+	
+	Para i<-1 Hasta n Hacer
+		Escribir "Color del foco #",i," :"
+		Leer Colores[i]
+	FinPara
+	
+	v <- 0
+	r <- 0
+	b <- 0
+	
+	Para i<-1 Hasta n Hacer
+		Segun Colores[i] Hacer
+			"verde":
+				v <- v + 1
+			"rojo":
+				r <- r + 1
+			"blanco":
+				b <- b + 1
+			De Otro Modo:
+				Escribir "Ese color no existe"
+		Fin Segun
+	FinPara
+	
+	Escribir "Rojos: ",r
+	Escribir "Blancos: ",b
+	Escribir "Verdes: ",v
+	
+FinProceso
+___________________________________________________________________________________________________________________________________________________________________________
+
+15.Realice un algoritmo para determinar si una persona puede votar 
+con base en su edad en las próximas elecciones
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+

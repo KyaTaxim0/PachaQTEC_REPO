@@ -1,0 +1,132 @@
+Ejercicio1
+
+Proceso  ejercicio1
+	Definir total Como Real
+	a<-10
+	b<-8
+	c<-9
+
+	total = a + b + c
+	
+	Escribir  "El resultado de la suma es =" total -10
+FinProceso
+
+
+Ejercicio2
+
+Proceso  ejercicio2
+	Definir  num2 Como Real
+	
+	Escribir  "Ingresa un numero"
+	Leer num2
+	
+	Escribir  "Su potencia es:" num2^2
+FinProceso
+
+
+Ejercicio3
+
+Proceso  ejercicio3
+	Definir total Como Real
+	Definir  a Como Real
+	Definir  b Como Real
+	
+	Escribir  "Ingresa un numero"
+	Leer a
+	Escribir  "Ingresa otro numero"
+	Leer b
+	
+	total = a * b
+	
+	Escribir "La multiplicacion es:" total
+FinProceso
+
+Ejercicio4
+
+Proceso  ejercicio4
+	Definir promedio Como Real
+	Definir  nota1 Como Real
+	Definir  nota2 Como Real
+	Definir  nota3 Como Real
+	Definir  nota4 Como Real
+	
+	
+	Escribir  "Ingresa un numero"
+	Leer nota1
+	Escribir  "Ingresa un numero"
+	Leer nota2
+	Escribir  "Ingresa un numero"
+	Leer nota3
+	Escribir  "Ingresa un numero"
+	Leer nota4
+	
+	promedio = (nota1+nota2+nota3+nota4)/4
+	
+	Escribir "Tu Promedio Final es:" promedio
+FinProceso
+
+Ejercicio5
+
+Proceso  ejercicio5
+	Definir area Como Real
+	Definir  lado Como Real
+	
+	
+	Escribir  "Ingresa el lado:"
+	Leer lado
+	
+	area=lado*lado
+	
+	Escribir "El area del cuadrado:" area
+FinProceso
+
+Ejercicio6
+
+Proceso  ejerecicio6
+	Definir  areac Como Real
+	Definir pivalor Como Real
+	Definir  radiovalor Como Real
+	
+	pivalor<-3.14
+	
+	Escribir  "Ingresa el radio:"
+	Leer radiovalor
+	
+	areac=2*pivalor*radiovalor
+	
+	Escribir "El area del circulo es:" areac
+FinProceso
+
+
+
+Ejercicio7:
+
+Proceso  ejerecicio7
+	Definir  salario Como Real
+	Definir horas Como Real
+	Definir sumaTotal Como Real
+	Definir  sueldoSem Como Real
+	
+	sumaTotal <-	0
+	dia <- 0
+	
+	Mientras dia < 7 Hacer
+		
+		Escribir  "Horas trabajadas:" dia
+		Leer horas
+		
+		Escribir "Salario del dia:" dia
+		Leer salario
+		
+		sumaTotal=sumaTotal+horas*salario
+		
+		dia=dia+1
+	Fin Mientras
+	
+	sueldoSem=sumaTotal
+	
+	Escribir "Sueldo Semanal:" sueldoSem
+	
+FinProceso
+
+
