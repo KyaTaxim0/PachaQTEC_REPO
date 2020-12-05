@@ -9,9 +9,7 @@ Fin Funcion
 
 
 Proceso  Sum
-	
-	Definir SumaT Como Real
-	
+		
 	Escribir "Numero 1"
 	Leer n1
 
