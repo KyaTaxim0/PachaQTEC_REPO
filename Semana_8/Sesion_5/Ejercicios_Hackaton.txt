@@ -384,6 +384,32 @@ con base en su edad en las próximas elecciones
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-
+Proceso votaciones21
+	
+	Definir rpta Como Caracter
+	minAge <- 18Proceso sin_titulo
+	
+	Definir rpta Como Caracter
+	minAge <- 18
+	
+	Escribir "Elecciones 2021"
+	
+	Escribir  "Desea conocer si votara en las elecciones?"
+	Leer rpta
+	
+	Mientras rpta="si" Hacer
+		
+		Escribir "Indicar tu anio de nacimiento: "
+		Leer birthYear
+		
+		Si 2021 - birthYear >= minAge Entonces
+			Escribir "Si Votaras! Preparate !"
+		SiNo
+			Escribir "Espera a las proximas Elecciones :("
+		Fin Si
+		
+	Fin Mientras
+	
+FinProceso
 
 
