@@ -1,19 +1,22 @@
 1.Implementar un algoritmo que reciba 2 argumentos y los sume, el resultado se deberá imprimir en pantalla
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Proceso  Suma
+Funcion SumaT <- suma (num1,num2)
 	
-	Definir SumaT Como Real
+	SumaT <- num1 + num2
+	
+Fin Funcion
+
+
+Proceso  Sum
 	
 	Escribir "Numero 1"
-	Leer num1
-	
+	Leer n1
+
 	Escribir "Numero 2"
-	Leer num2
+	Leer n2
 	
-	SumaT = num1 + num2
-	
-	Imprimir "La suma de los numeros ingresados es:" SumaT
+	Imprimir "La suma de los numeros ingresados es:" suma(n1,n2)
 	
 FinProceso
 ___________________________________________________________________________________________________________________________________________________________________________
@@ -46,6 +49,28 @@ ________________________________________________________________________________
 5.Calcular el área de una circunferencia
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+Funcion areaREC <- rectan (baseR,alturaR)
+	
+	areaREC <- baseR*alturaR
+	
+Fin Funcion
+
+
+Funcion areaTRI <- trian (baseT,alturaT)
+	
+	areaTRI <- (baseT*alturaT)/2
+	
+Fin Funcion
+
+
+Funcion areaCIR <- circun (radioC)
+	
+	piC <- 3.14
+	areaCIR <- piC*(radioC^2)
+	
+Fin Funcion
+
+
 Proceso  areas
 	
 	Escribir "1.Rectangulo"
@@ -58,32 +83,30 @@ Proceso  areas
 	Segun op Hacer
 		1:
 			Escribir "Ingresa la variable Base:"
-			Leer baseR
+			Leer base
 			
 			Escribir "Ingresa la variable Altura:"
-			Leer alturaR
+			Leer altura
 			
-			Imprimir "El area del Rectangulo es:" baseR*alturaR
+			Imprimir "El area del Rectangulo es:" rectan(base,altura)
 		2:
 			Escribir "Ingresa la variable Base:"
-			Leer baseT
+			Leer base
 			
 			Escribir "Ingresa la variable Altura:"
-			Leer alturaT
+			Leer altura
 			
-			Imprimir "El area del Triangulo es:" (baseT*alturaT)/2
+			Imprimir "El area del Triangulo es:" trian(base,altura)
 		3:
 			Escribir "Ingresa la variable Radio:"
-			Leer radioC
+			Leer radio
 			
-			piC<-3.14
-			
-			Imprimir "El area de la Circunferencia es:" piC*(radioC^2)
+			Imprimir "El area de la Circunferencia es:" circun(radio)
 			
 		De Otro Modo:
 			Escribir "No existe la operacion indicada"
 	Fin Segun
-		
+	
 FinProceso
 ___________________________________________________________________________________________________________________________________________________________________________
 
@@ -129,6 +152,13 @@ que requiere. Represéntelo mediante el diagrama de flujo y el
 pseudocódigo (1 pulgada = 0.0254 m).
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+Funcion Pulg <- converMP (num)
+	
+	Pulg <- num * 39.37
+	
+Fin Funcion
+
+
 Proceso  metrosPulgadas
 	
 	Dimension Pedidos[50]
@@ -142,15 +172,22 @@ Proceso  metrosPulgadas
 	FinPara
 	
 	Para i<-1 Hasta n Hacer
-		Escribir "Pedido ",i," en Pulgadas:",Pedidos[i] * 39.37
+		Escribir "Pedido ",i," en Pulgadas:",converMP(Pedidos[i])
 	FinPara
-		
+	
 FinProceso
 ___________________________________________________________________________________________________________________________________________________________________________
 
 8.Una empresa importadora desea determinar cuántos dólares puede 
 adquirir con "x"" cantidad de dinero peruano
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Funcion Dol <- converSD (num)
+	
+	Dol <- num * 3.601
+	
+Fin Funcion
+
 
 Proceso  solDolar
 	
@@ -167,11 +204,11 @@ Proceso  solDolar
 		Escribir "Ingresa el monto en S/. :"
 		Leer qty
 		
-		Escribir "Monto en $ : " qty * 3.601
+		Escribir "Monto en $ : " converSD(qty)
 		Escribir "¿Desea continuar?, escriba Si o No:"
 		Leer Rpta
 	Fin Mientras
-
+	
 FinProceso
 ___________________________________________________________________________________________________________________________________________________________________________
 
@@ -179,15 +216,20 @@ ________________________________________________________________________________
 las personas que solicitan trabajo, pero cuando se les realiza 
 la entrevista sólo se les pregunta el año en que nacieron
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Funcion age <- aniosE (num)
+	
+	age <- 2020 - num
+	
+Fin Funcion
 
 Proceso  edades
 	
 	Dimension Nombres[50]
 	Dimension Anios[50]
-		
+	
 	Escribir "Numero de persona entrevistadas"
 	Leer n
-		
+	
 	Para i<-1 Hasta n Hacer
 		Escribir "Nombre de Entrevistado ",i," :"
 		Leer Nombres[i]
@@ -198,7 +240,7 @@ Proceso  edades
 	Escribir "Lista de entrevistados y sus edades"
 	
 	Para i<-1 Hasta n Hacer
-		Escribir Nombres[i]," tiene :",2020 - Anios[i], " anios."
+		Escribir Nombres[i]," tiene :",aniosE(Anios[i]), " anios."
 	FinPara
 	
 FinProceso
@@ -384,10 +426,15 @@ con base en su edad en las próximas elecciones
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-Proceso votaciones21
+Funcion age <- calcAge ( num )
 	
-	Definir rpta Como Caracter
-	minAge <- 18Proceso sin_titulo
+	age <- 2021 - num
+	
+Fin Funcion
+
+
+
+Proceso votaciones21
 	
 	Definir rpta Como Caracter
 	minAge <- 18
@@ -402,7 +449,7 @@ Proceso votaciones21
 		Escribir "Indicar tu anio de nacimiento: "
 		Leer birthYear
 		
-		Si 2021 - birthYear >= minAge Entonces
+		Si calcAge(birthYear) >= minAge Entonces
 			Escribir "Si Votaras! Preparate !"
 		SiNo
 			Escribir "Espera a las proximas Elecciones :("
@@ -411,5 +458,3 @@ Proceso votaciones21
 	Fin Mientras
 	
 FinProceso
-
-
