@@ -9,7 +9,7 @@ Fin Funcion
 
 
 Proceso  Sum
-	
+		
 	Escribir "Numero 1"
 	Leer n1
 
