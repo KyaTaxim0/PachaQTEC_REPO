@@ -339,14 +339,9 @@ capLast("hello") ➞ "hellO"
 */
 
 function capLast(text){
-    
-}
-
-
-function endCaseWords(input) {
-    return input.toLowerCase().split(" ").map(function(item) {
+    return text.toLowerCase().split(" ").map(function(item) {
         return item.slice(0, -1) + item.slice(-1).toUpperCase();
     }).join(" ");
 }
 
-document.write(endCaseWords("Party like its 2015"));
+console.log('Ejercicio 22 : ',capLast("hello"))
