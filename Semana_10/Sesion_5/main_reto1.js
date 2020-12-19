@@ -327,7 +327,7 @@ findNemo("I am finding Nemo !") ➞ "I found Nemo at 4!"
 */
 
 function findNemo (phrase,word){
-    position = phrase.indexOf(word)
+    position = phrase.split(" ").indexOf(word)+1
 
     return `Encontre a ${word} en ${position} `
 }
