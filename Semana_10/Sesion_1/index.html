@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECMAScript</title>
+</head>
+<body>
+    <script src="./main.js" type="module"></script>
+    <script>
+        // Funciones declarativas (pueden ser ejecutadas incluso antes de la propia escritura de la funcion)
+        fn()
+
+        function fn(){
+            console.log('Yo soy una funcion declarativa')
+        }
+
+        // Funcion Expresiva (la funcion se encuentra dentro de una variable)
+
+        const fn2 = function(){
+            console.log('Funcion Expresiva')
+        }
+        fn2()
+
+        // Funciones Arrow (No tienen el sentido del elevo, las funciones declarativas normalmente son puestas al inicio para poder ser ejecutadas en cualquier momento mientras que las Arrow no pueden ser ejecutadas sin antes haber sido escritas y su funcion)
+        // 1 sola linea
+        const suma = (a,b) => a + b;
+        const getName = name => name ;
+
+        //2 a + lineas
+        const getLastname = name => {
+            console.log('Mi nombre es');
+            console.log('Karina');
+
+            // tambien pueden llamar a otras funciones 
+            return name
+        }
+
+        // Nota: Una funcion dentro de un objeto se llama Metodo
+
+        const perro = {
+            raza: "husky",
+            edad: 2,
+            nacionalidad: "asiatica",
+            ladrar: function() {  // Si tiene this por lo q llama al objeto
+                return this
+            },
+            trucos: ()=>{ //arrow function no tiene this propio por lo que llama al padre
+                return this 
+            }
+        }
+
+        console.log(perro.ladrar());
+        console.log(perro.trucos());
+
+
+        //Default parameters
+
+        function sayHelloName(phrase="Hola", name="Karina"){
+            return phrase + ' ' + name
+        }
+
+        console.log(sayHelloName())
+        console.log(sayHelloName("Chau","Shiro"))
+
+        // ...rest agrupa los argumentos demas que se ingresen como parametros en un array (exceptuando los que si toma como parametro unico 'a,b')
+
+        function sumarNumero(a,b,...rest){
+            console.log('a',a)
+            console.log('b',b)
+            console.log('rest',rest)
+            return a + b
+        }
+
+        console.log(sumarNumero(1,2,3,4,5,6,7))
+
+        //spreadOperator al contrario de rest ,recibe un array y los divide en elemetos individuales
+
+        function spread(a,b,c,d){
+            console.log('a',a)
+            console.log('b',b)
+            console.log('c',c)
+            console.log('d',d)
+        }
+
+        console.log(spread(...[1,2,3,4]))
+
+        // spread para unir arrays
+
+        const numeroUno = [0,1,2,3,4];
+        const numeroDos = [5,6,7,8,9,10];
+        const nuevoArray = [...numeroUno,...numeroDos]
+
+        console.log('nuevoArray',nuevoArray)
+
+        // spread para prevalecer el ultimo objeto de muchos
+
+        const objeto_u = {
+            name:'Karina',
+            sayName: function(){
+                return this.name
+            }
+        }
+
+        const objeto_d = {
+            name:'Kamila',
+            sayName: function(){
+                return this.name
+            }
+        }
+
+        const nuevoObje = {
+            ...objeto_u,
+            ...objeto_d,
+        }
+
+        console.log('nuevoObjeto',nuevoObje)
+
+        //Definicion corta para los parametros de un objeto
+
+        function crearPerrito(raza="doberman",edad=4,color="Negro",nombre="Lyon"){
+            return {
+                raza,
+                edad,
+                color,
+                nombre,
+                sayWow(){ //Metodos concisos
+                    return 'WOF WOF ' + this.name
+                }
+            }
+        }
+
+        const doberman = crearPerrito()
+        console.log('doberman',doberman)
+
+        const sanbernardo = crearPerrito("san bernardo",2,"Marron y Blanco","Little")
+        console.log('doberman',sanbernardo)
+
+
+        // Object.assign() combinar objetos y las propiedades que se repitan se sobreescriben
+
+        const metodos = {
+            decirNombre(){
+                return this.name
+            },
+            decirApellido(){
+                return this.lastname
+            }
+        }
+
+        const objt1 = {
+            name : 'Kya',
+            lastname : 'Quispe'
+        }
+
+        const objt2 = {
+            name : ' Kira'
+        }
+
+        const allObjt = Object.assign({edad:27},metodos,objt1,objt2)
+
+        console.log('Todos Objetos', allObjt)
+
+        
+        //Destructing
+
+        //tenemos el objeto alumno
+
+        const alumnita = {
+            nombre : 'Karina',
+            apellido: 'Quispe',
+            edad: 27,
+            grado: 'Bachiller',
+            padres:{
+                mama:{
+                    name: 'Fanny',
+                    edad : 61
+                },
+                papa:{
+                    name : 'Alejandro',
+                    edad : 61
+                }
+            },
+            mascotas:{
+                cat:{
+                    has : true,
+                    name : 'Shiro',
+                    edad : 3
+                }
+
+            },
+            Parents(){
+                return this.padres
+            }
+
+        }
+
+        //destructurando Objeto
+
+        const {
+            padres:{
+                papa:{
+                    name:nameDad, // asignando una nueva forma de llamar la propiedad
+                    edad
+                },
+                mama:{
+                    name:nameMom,
+                    edad: ageMom
+                }
+            }
+        } = alumnita
+
+        //manera incorrecta de entrar al objeto
+        console.log('name', alumnita.padres.papa.name)
+        //correcta !
+        console.log('Dads name',nameDad)
+        console.log('Dads age',edad)
+        console.log('Moms name',nameMom)
+        console.log('Moms name',ageMom)
+
+
+        // Destructurando Array
+
+        const numeros = [0,1,2,3,4,5,[1,2,3,{name:'jose'}]]
+
+        // acceso lento
+        console.log('numero', numeros[0])
+
+        //acceso rapido
+        const [,,,,,a,[,,,{name}]] = numeros
+
+        console.log('a',a)
+        console.log('name',name)
+
+        //String template
+
+        let nombresillo = 'Maria'
+
+        function getgName (lastname = 'quispe'){
+            return lastname
+        } 
+
+        console.log(`Hola mi nombre es ${nombresillo} tengo ${10+17} y mi apellido es ${getgName('Quispe')}`)
+
+
+    </script>
+</body>
+</html>

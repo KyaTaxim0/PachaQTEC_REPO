@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button {
+            padding: 2px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        
+    </header>
+    <main>
+        <h1>MAIN</h1>
+        <section>
+            <h2>NOSOTROS</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea nobis odio itaque ut fuga tempore ab. Nesciunt ratione dicta quis impedit. Esse nobis ullam dolorem officia ex minima officiis voluptatibus.</p>
+            
+            <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+            </ul>
+            <div class="padre-blue"><button data-color="blue">BOTON 1</button></div>
+            <div><button data-color="pink">BOTON 2</button></div>
+            <div><button data-color="green">BOTON 3</button></div>
+        </section>
+        <script>
+            // solo selecciona el primer que encuentra
+            const lis = document.querySelector('li')
+            lis.style.color = 'red'
+            console.log('lis', lis)
+
+            //selecciona todos
+            const list = document.querySelectorAll('li')
+            list.forEach((li) =>{
+                console.log('li',li)
+                li.style.color = 'red'
+            })
+
+            // 
+            list.forEach((li) =>{
+                li.onclick = function(){
+                    this.textContent = parseFloat(this.textContent) + 1
+                }
+            })
+
+            const button1 = document.querySelector('button');
+
+            const button2 = document.querySelector('[data-color="pink"]');
+
+            const button3 = document.querySelector('[data-color="green"]');
+
+            function changeColor(){
+                console.log('holas')
+                this.parentNode.style.backgroundColor = this.dataset.color
+            }
+
+            button1.onclick = changeColor
+            button2.onclick = changeColor
+            button3.onclick = changeColor
+
+           
+
+        </script>
+    </main>
+</body>
+</html>
