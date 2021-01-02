@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forma 1 - Creacion de Objetos THIS</title>
+</head>
+<body>
+    <form action="">
+        <input class="js-name" type="text" placeholder="Nombre">
+        <input class="js-lastname" type="text" placeholder="Apellido">
+        <input class="js-email" type="email" placeholder="Correo">
+        <input class="js-password" type="password" placeholder="Contrasena">
+        <button>Enviar</button>
+    </form>
+    <script>
+        function CreateUser (name,lastname,email,password){
+            //le damos el valor
+
+            this.name = name;
+            this.lastname = lastname;
+            this.email = email;
+            this.password = password;
+            this.totalBuy = 0;
+
+            console.log ('this',name)
+
+            this.editProfile = function(name,lastname){
+                this.name = name;
+                this.lastname = lastname;
+            }
+
+            this.changePassword = function(password){
+                this.password = password;
+            }
+
+            this.showData = function(){
+                return `${this.name} ${this.lastname}`
+            }
+
+            this.setBuy = function(totalBuy){
+                this.totalBuy = totalBuy;
+            }
+            
+        }
+
+        function main() {
+            const name = document.querySelector('.js-name')
+            const lastname = document.querySelector('.js-lastname')
+            const email = document.querySelector('.js-email')
+            const password = document.querySelector('.js-password')
+            const form = document.querySelector('form')
+
+            form.onsubmit = function (event) {
+                event.preventDefault()
+                const user = new CreateUser(
+                    name.value,
+                    lastname.value,
+                    email.value,
+                    password.value
+                )
+
+                console.log('user', user)
+            }
+        }
+
+        main()
+
+
+    </script>
+</body>
+</html>
