@@ -6,6 +6,81 @@
     <title>Herencia</title>
 </head>
 <body>
-    
+    <script>
+
+        class Proveedores {
+            constructor(nameProv){
+                this.nameProv=nameProv
+            }
+
+            nombrarProveedor(){
+                return `El proveedor es : Concesionaria`
+            }
+        }
+
+        class Vehiculo extends Proveedores{
+            constructor (nameProv,marca,velocidad,color,numPlaca){
+                super(nameProv);
+                this.marca = marca;
+                this.velocidad = velocidad;
+                this.color = color;
+                this.numPlaca = numPlaca;
+            }
+                frenar(){
+                    return `El vehiculo ${this.marca} frena a ${this.velocidad}`
+                }
+
+                acelera(){
+                    return `El vehiculo ${this.marca} acelera a ${this.velocidad}`
+                }
+
+            
+        }
+
+        class Moto extends Vehiculo {
+            //#pararse2Ruedas = false;
+            constructor (marca,velocidad,color,numPlaca){
+                super(marca,velocidad,color,numPlaca)
+            }
+
+            frenar(){
+                    return `La moto ${this.marca} frena a ${this.velocidad}`
+            }
+
+            pararEnUnaRueda(){
+                return `La moto ${this.marca} se para en una rueda`
+            }
+
+            // set pararse2Ruedas(value){
+            //     this.#pararse2Ruedas = value;
+            // }
+
+            // get pararse2Ruedas(){
+            //     return this.#pararse2Ruedas
+            // }
+        }
+
+        class Auto extends Vehiculo {
+            constructor (marca,velocidad,color,numPlaca){
+                super(marca,velocidad,color,numPlaca)
+            }
+
+            activarAire(){
+                return `La auto ${this.marca} activo el aire acondicionado`
+            }
+        }
+
+        const kawaski = new Moto('kawasaki','180km','negro','AGR445')
+        const honda = new Auto('honda','180km','rojo','AGH435')
+
+        console.log(kawaski.pararEnUnaRueda())
+        console.log(kawaski.frenar())
+        console.log(honda.activarAire())
+        console.log(kawaski.nombrarProveedor())
+
+        //kawaski.pararse2Ruedas = true;
+
+        
+    </script>
 </body>
 </html>

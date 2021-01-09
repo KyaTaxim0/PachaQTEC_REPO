@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROTOTYPE</title>
+    <style>
+        /*Se puede cambiar con clases css*/
+        .is-active{
+            background: red;
+        }
+    </style>
+</head>
+<body>
+    <button data-color="orange">TOGGLE 1</button>
+    <button class="js_dos" data-color="blue">TOGGLE 2</button>
+    <button class="js_tres" data-color="pink">TOGGLE 3</button>
+    <button>TOGGLE 4</button>
+    <script>
+        //-- Las clases son solo una forma en como trabajar los objetos sin embargo es mas frecuente utilizar las funciones como objetos.
+
+        // class UsuarioClase{
+        //     constructor(name){
+        //         this.name = name
+        //     }
+
+        // }
+
+        // UsuarioClase.prototype.name = 'roberto'
+
+        // console.log('clase',UsuarioClase.prototype)
+
+        //-- Agregar atributos o funcionalidades mediante proto
+        function Usuario(){
+
+        }
+
+        //console.log('funcion',Usuario.prototype)
+        Usuario.prototype.sexo = 'F'
+        Usuario.prototype.getSexo = function(){
+            return `Este es su sexo : ${this.sexo}`
+        }
+        
+        //console.log('funcion y cambios',Usuario.prototype)
+
+        const usuario1 = new Usuario()
+
+        //console.log('usuario1',usuario1)
+
+        // PROTOTYPE
+        // Definicion de la plantilla objeto toggle
+        function toggleButton(options){
+            const {
+                elem 
+            } = options;
+            const element = document.querySelector(elem)
+            this.addEvent(element)
+        }
+
+        //Se agregan atributos/metodos
+        toggleButton.prototype.addEvent = function (element){
+            element.onclick = () => {
+                element.style.backgroundColor = !element.style.backgroundColor ? element.dataset.color : ''
+                //element.classList.toggle('is-active') // cambio de clase css
+            }
+        }
+
+        //Se crean los objetos con la plantilla definida en donde el 
+        //dato que se pasa es el 'elem'
+        const buttonToggleOne = new toggleButton({
+            elem: 'button'
+        })
+
+        const buttonToggleTwo = new toggleButton({
+            elem: '.js_dos'
+        })
+
+        const buttonToggleThree = new toggleButton({
+            elem: '.js_tres'
+        })
+
+        // THIS
+
+
+    </script>
+</body>
+</html>

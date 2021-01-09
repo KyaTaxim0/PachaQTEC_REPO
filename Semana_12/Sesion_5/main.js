@@ -2,11 +2,36 @@ import {Bloques} from './Bloque.js';
 
 function main(){
     //*Reto 1
-    const drop_btn = document.querySelector('.js_btn-dropdown');
-    drop_btn.onclick = function(e){
-        e.preventDefault()
-        document.querySelector('.js_options').classList.toggle("show")
-    };
+    function dropdownButton(options){
+        const {
+            elem
+        } = options;
+        const element = document.querySelector(elem);
+        this.addEvent(element)
+        this.hideEvent(element,elem)
+    }
+
+    dropdownButton.prototype.addEvent = function (element){
+        element.onclick = function(e) {
+            e.preventDefault()
+            element.nextSibling.nextSibling.classList.toggle("show")
+        }
+    }
+
+    dropdownButton.prototype.hideEvent = function (element,elem){
+        window.onclick = function(e){
+            if(!e.target.matches(elem)){
+                if(element.nextSibling.nextSibling.classList.contains('show')){
+                    element.nextSibling.nextSibling.classList.remove('show')
+                }
+            }
+        }
+    }
+
+    const buttonDDown = new dropdownButton({
+        elem: '.js_btn-dropdown'
+    })
+
 
     //*Reto 2
     const bloques = new Bloques();
@@ -35,39 +60,50 @@ function main(){
     //*Reto 3
 
     const openBtn = document.querySelector('.btn_openModal')
-    const modal = document.querySelector('.js_modal')
-    const xSpan = document.querySelector('.btn_closeModal')
-    const closeBtn =document.querySelector('.btn_close')
-    const saveBtn =document.querySelector('.btn_save')
-    const labelName = document.querySelector('.js_name')
 
+    function Modal(options){
+        this.element = document.querySelector(options.element);
+        this.elementClose = this.element.querySelector('.modal__close');
+        this.elementCancel = this.element.querySelector('.btn_cancel');
+        this.elementSave = this.element.querySelector('.btn_save');
+
+        this.registerEvens(options)
+
+    }
+
+    Modal.prototype.open = function(){
+        this.element.style.display='block'
+    }
+
+    Modal.prototype.close = function(){
+        this.element.style.display='none'
+    }
+
+    Modal.prototype.registerEvens = function(options){
+        this.elementClose.onclick = () =>{
+            this.close()
+        }
+        this.elementCancel.onclick = () =>{
+            this.close()
+        }
+        
+        this.elementSave.onclick = () =>{
+             options.cbSave()
+        }    
+    }
 
     openBtn.onclick = function(e){
         e.preventDefault()
-        modal.style.display='block'
-    }
-
-    xSpan.onclick = function(e){
-        e.preventDefault()
-        modal.style.display='none'
-    }
-
-    saveBtn.onclick = function(e){
-        e.preventDefault()
-        console.log(labelName.value)
-        modal.style.display='none'
-    }
-
-    closeBtn.onclick = function(e){
-        e.preventDefault()
-        modal.style.display='none'
+        modalWindow.open()
     }
 
 
-
-
-
-
+    const modalWindow = new Modal({
+        element:'.jss_modal',
+        cbSave : function(){
+            document.querySelector('.message').textContent = `Gracias ${document.querySelector('.js_name').value} por ayudar a los animalitos :)`
+        }
+    })
 
 }
 
