@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PATRONES - CALLBACK</title>
+</head>
+<body>
+    
+    <script>
+    //Es una funcion que se pasa como argumento y se ejecuta dentro de otra funcion
+
+    function sayName(name,cb = () => {}){
+        console.log('Hola mi nombre es:',name)
+        cb(name)
+    }
+
+    sayName('Karina',function(name){
+        console.log('Ejecucion en callback',name)
+    })
+
+    </script>
+</body>
+</html>

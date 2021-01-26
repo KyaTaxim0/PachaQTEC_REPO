@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTTP - FETCH</title>
+</head>
+<body>
+    <div id="containerpage"></div>
+    <button class="js1">PAGINA 1</button>
+    <button class="js2">PAGINA 2</button>
+
+    <script>
+        const button1 = document.querySelector('.js1') ;
+        const button2 = document.querySelector('.js2') ;
+
+        button1.onclick = function(){
+            fetch('http://127.0.0.1:5500/Semana_13/Sesion_2/fetch_pagina1.html')
+            .then((response)=>response.text())
+            .then((responseHTML) => {
+                document.getElementById('containerpage').innerHTML = responseHTML;
+            })
+            
+        }
+
+        button2.onclick = function(){
+            fetch('http://127.0.0.1:5500/Semana_13/Sesion_2/fetch_pagina2.html')
+            .then((response)=>response.text())
+            .then((responseHTML) => {
+                document.getElementById('containerpage').innerHTML = responseHTML;
+            })
+            
+        }
+
+    </script>
+  
+    <div id="container">
+
+    </div>
+
+    <div id="film">
+
+    </div>
+
+    <script>
+        function getPerson(){
+            return fetch('https://swapi.dev/api/people',)
+                .then((response) => response.json())
+        }
+
+        function getFilms(url){
+            return fetch(url).then((response) => response.text())
+        }
+
+        function createUser(value){
+
+            const article = document.createElement('article');
+            const ul = document.createElement('ul');
+            value.films.forEach(function(film){
+                const li = document.createElement('li')
+                li.innerHTML =`
+                    ${film}
+                `;
+                li.onclick = function(){
+                    getFilms(film).then((response)=>{
+                        console.log('response',response)
+                        document.getElementById('film').innerHTML = response
+                    }).catch(()=>{
+                        alert('Intenta nuevamente, por el momento presento un error')
+                    })
+                }
+                ul.appendChild(li)
+            })
+            article.innerHTML =`
+            <h2>${value.name}</h2>
+            `
+            article.appendChild(ul)
+
+            return article
+        }
+
+        function addDom(user){
+            const container = document.getElementById('container');
+            container.appendChild(user)
+        }
+
+        getPerson().then(function(response){
+            console.log('response',response)
+            response.results.forEach(user => {
+                addDom(createUser(user))
+            });
+        }).catch(()=>{
+            alert('Intenta nuevamente, por el momento presento un error')
+        })
+    </script> 
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "users": [
+    {
+      "name": "Karina",
+      "age": "24",
+      "id": 1
+    }
+  ],
+  "mascotas": [
+    {
+      "name": "rocky",
+      "age": 4
+    },
+    {
+      "name": "shiro",
+      "age": 3
+    },
+    {
+      "name": "bernardo",
+      "age": 8
+    }
+  ]
+}

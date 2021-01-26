@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASYNC & AWAIT</title>
+</head>
+<body>
+    <script>
+        // ASYNC&AWAIT = Uso : funciones donde haya mas de un proceso
+        // await es para esperar la respuesta de una promesa y esta solo puede ser aplicada en una funccion Async   
+
+        // PROMESAS con fetch
+        // fetch('https://swapi.dev/api/people/1/')
+        // .then((response)=>response.json())
+        // .then((people)=>console.log('people',people))
+       
+
+       //ASYNC & AWAIT Promesas
+
+        //Forma 1:
+        // async function getPeople(id){
+        //     const people = await fetch(`https://swapi.dev/api/people/${id}/`)
+            
+        //     return people
+        // }
+
+        // getPeople(1).then((peopleOne) => {
+        //     console.log('people',peopleOne)
+        // });
+        // getPeople(2).then((peopleTwo) => {
+        //     console.log('people',peopleTwo)
+        // });
+        // getPeople(3).then((peopleThree) => {
+        //     console.log('people',peopleThree)
+        // });
+        
+
+       //Forma 2:
+        // async function getPeople(id){
+        //     const people = await fetch(`https://swapi.dev/api/people/${id}/`)
+        //     console.log('people',id,people)
+        //     return people
+        // }
+
+        // getPeople(1);
+        // getPeople(2);
+        // getPeople(3);
+
+
+        //Forma 3 - cascada :
+        // async function getPeople(id){
+        //     const people = await fetch(`https://swapi.dev/api/people/${id}/`)
+        //     return people
+        // }
+
+        // getPeople(1).then((peopleOne)=>{
+        //     console.log('peopleOne',peopleOne)
+        //     return getPeople(2)
+        // }).then((peopleTwo)=>{
+        //     console.log('peopleTwo',peopleTwo)
+        // })
+
+        //Para ingresar al json junto con anidacion, detalle especifico:
+        
+        async function getFilms(url){
+            const films = await fetch(`${url}`)
+            console.log('films',films)
+        }
+
+        async function getPeople(id){
+            //Control de errores try&catch:
+            try{
+                const people = await fetch(`https://swapi.dev/api/people/${id}/`)
+                .then(Response => Response.json())
+                //console.log('people',people.films)
+
+                const films = await getFilms(people.films[0])
+            } catch(e){
+                alert('No se puede cargar la informacion')
+            }
+        }
+
+        getPeople(1)
+
+        
+
+        // VERBOS : GET (Obtener), POST (insertar), PUT (Update), DELETE (Borrar)
+
+        //JSON
+        //JSON.stringify(var) -> de Objeto a Json
+        //JSON.parse(var) -> de json a Objeto
+
+
+
+        
+    </script>
+</body>
+</html>

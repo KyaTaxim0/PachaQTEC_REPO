@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTTP - FAKE SERVER</title>
+</head>
+<body>
+    <form>
+        <input class="js_user" type="text" placeholder="Nombre">
+        <input class="js_age" type="text" placeholder="Edad">
+        <button>Grabar</button>
+    </form>
+
+    <div id="container">
+
+    </div>
+    <script>
+        // Mientras menos peticiones haya , mas rapido puede cargar la pagina
+
+        //API : Nos permite interactuar con las funcionalidades / servicios de otros sistemas , obteniendo la informacion de estos
+        //Rest : una manera de arquitectura de las APIs
+
+        //Pasos:
+        //npm init -y  (inicializar la descargar a diferentes paquetes)
+        //npm i --save-dev json-server    (para la creacion del entorno json server FAKE DATA)
+        //crear db.json (es la estructura de datos que se compartira)
+        //npx json-server --watch db.json (iniciamos el entorno y acceso a variables)
+
+        fetch('http://localhost:3000/users')
+        .then(response => response.json())
+        .then((user)=>{
+            user.forEach(user => {
+                addDom(createUser(user))
+            });
+        })
+
+        function addDom(element){
+            const container = document.getElementById('container');
+            container.appendChild(element)
+        }
+
+        function createUser(values){
+            console.log('values',values)
+            const user = document.createElement('article')
+            user.innerHTML = `
+                <h2>${values.name}</h2>
+                <h2>${values.age}</h2>
+                <form>
+                    <input class="js_name" value="${values.name}" />
+                    <input class="js_age" value="${values.age}" />
+                    <button>Actualizar</button>
+                </form>
+                <button class="js_delete">Eliminar</button>
+            `
+
+            user.querySelector('form').onsubmit = function(e){
+                e.preventDefault();
+                updateUser({
+                    name : this.querySelector('.js_name').value,
+                    age : this.querySelector('.js_age').value,
+                    id : values.id
+                })
+            }
+
+            user.querySelector('.js_delete').onclick = function(e){
+                e.preventDefault();
+                deleteUser({
+                    id : values.id
+                })
+            }
+
+            return user
+        }
+
+        function saveUser(payload){
+
+            fetch('http://localhost:3000/users', {
+                method: 'POST',
+                body: JSON.stringify(payload),
+                headers: {
+                    'Content-type': 'application/json; charset=UTF-8',
+                },
+            })
+
+        }
+
+        function updateUser(payload){
+
+            fetch(`http://localhost:3000/users/${payload.id}`, {
+                method: 'PUT',
+                body: JSON.stringify(payload),
+                headers: {
+                    'Content-type': 'application/json; charset=UTF-8',
+                },
+            })
+
+        }
+
+        function deleteUser(payload){
+
+            fetch(`http://localhost:3000/users/${payload.id}`, {
+                method: 'DELETE'
+            })
+
+        }
+
+        function addUser(){
+            const form = document.querySelector('form')
+            const user = document.querySelector('.js_user')
+            const edad = document.querySelector('.js_age')
+
+            form.addEventListener('submit', function(e){
+                e.preventDefault()
+                // e.stopPropagation() // no permite refrescar la pagina
+
+                saveUser({
+                    name: user.value,
+                    age: edad.value,
+                })
+                console.log('se grabo')
+            })
+        }
+
+        addUser()
+
+    </script>
+</body>
+</html>

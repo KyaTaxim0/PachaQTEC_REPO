@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALLBACK</title>
+</head>
+<body>
+    <script>
+
+        // CALLBACK HELL (anidamiento de muchos callbacks)
+
+        function getUsers(cb=function(){}){
+            setTimeout(()=>{
+                const users =[{
+                    user:'karina',
+                    id:1
+                },{
+                    user:'kamila',
+                    id:2
+                }]
+                cb(users)
+            },2000)
+        }
+
+        function getAccount(cb=function(){}){
+            setTimeout(()=>{
+                const accounts =[{
+                    number: 123,
+                    id:1
+                },{
+                    number:456,
+                    id:2
+                }]
+                cb(accounts)
+            },2000)
+        }
+        
+        getUsers(function(datos){
+            console.log('datos',datos)
+            getAccount(function(accounts){
+                console.log('accounts',accounts)
+            })
+        });
+
+    </script>
+</body>
+</html>

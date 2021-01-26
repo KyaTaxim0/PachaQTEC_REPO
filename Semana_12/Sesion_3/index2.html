@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HERENCIA PROTOTIPOS</title>
+</head>
+<body>
+    
+    <script>
+
+        function Empresas(){
+            this.empresa="Toyote";
+        }
+
+        Empresas.prototype.getEmpresa = function(){
+            return this.empresa;
+        }
+
+        function Vehiculos(marca,color,velocidad){
+            this.marca = '';
+            this.color = '';
+            this.velocidad = '';
+        }
+
+        Vehiculos.prototype.getMarca = function(){
+            return `${this.marca}`
+        }
+
+        function Auto({marca,color,velocidad}){
+            this.marca =marca;
+            this.color = color;
+            this.velocidad = velocidad;
+            this.aireAcondicionado = function(){
+                return `El auto tiene aire acondicionado`
+            }
+        }
+
+        Auto.prototype = Vehiculos;
+        Auto.prototype.empresa = new Empresas();
+
+        function Moto(){
+            this.andarEnUnaRueda = function(){
+                return `La moto anda en una rueda`
+            }
+        }
+
+        Moto.prototype = Vehiculos;
+
+        const toyota = new Auto({marca:'toyota',color:'rojo',velocidad:'320km'});
+
+        console.log('toyota',toyota.empresa.getEmpresa())
+    </script>
+</body>
+</html>

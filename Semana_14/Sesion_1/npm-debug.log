@@ -1,0 +1,1083 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'cache', 'clean', '-f' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 warn using --force I sure hope you know what you are doing.
+5 silly ls normalized .
+6 silly gentlyRm /home/kya/.npm/@angular is being purged
+7 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/@angular
+8 silly gentlyRm /home/kya/.npm/@angular-devkit is being purged
+9 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/@angular-devkit
+10 silly gentlyRm /home/kya/.npm/@schematics is being purged
+11 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/@schematics
+12 silly gentlyRm /home/kya/.npm/@types is being purged
+13 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/@types
+14 silly gentlyRm /home/kya/.npm/@yarnpkg is being purged
+15 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/@yarnpkg
+16 silly gentlyRm /home/kya/.npm/JSONStream is being purged
+17 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/JSONStream
+18 silly gentlyRm /home/kya/.npm/_cacache is being purged
+19 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/_cacache
+20 silly gentlyRm /home/kya/.npm/_locks is being purged
+21 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/_locks
+22 silly gentlyRm /home/kya/.npm/agent-base is being purged
+23 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/agent-base
+24 silly gentlyRm /home/kya/.npm/agentkeepalive is being purged
+25 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/agentkeepalive
+26 silly gentlyRm /home/kya/.npm/ajv is being purged
+27 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/ajv
+28 silly gentlyRm /home/kya/.npm/anonymous-cli-metrics.json is being purged
+29 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/anonymous-cli-metrics.json
+30 silly gentlyRm /home/kya/.npm/ansi-colors is being purged
+31 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/ansi-colors
+32 silly gentlyRm /home/kya/.npm/ansi-escapes is being purged
+33 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/ansi-escapes
+34 silly gentlyRm /home/kya/.npm/ansi-regex is being purged
+35 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/ansi-regex
+36 silly gentlyRm /home/kya/.npm/ansi-styles is being purged
+37 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/ansi-styles
+38 silly gentlyRm /home/kya/.npm/aproba is being purged
+39 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/aproba
+40 silly gentlyRm /home/kya/.npm/asap is being purged
+41 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/asap
+42 silly gentlyRm /home/kya/.npm/asn1 is being purged
+43 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/asn1
+44 silly gentlyRm /home/kya/.npm/assert-plus is being purged
+45 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/assert-plus
+46 silly gentlyRm /home/kya/.npm/asynckit is being purged
+47 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/asynckit
+48 silly gentlyRm /home/kya/.npm/aws-sign2 is being purged
+49 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/aws-sign2
+50 silly gentlyRm /home/kya/.npm/aws4 is being purged
+51 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/aws4
+52 silly gentlyRm /home/kya/.npm/balanced-match is being purged
+53 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/balanced-match
+54 silly gentlyRm /home/kya/.npm/bcrypt-pbkdf is being purged
+55 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/bcrypt-pbkdf
+56 silly gentlyRm /home/kya/.npm/bluebird is being purged
+57 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/bluebird
+58 silly gentlyRm /home/kya/.npm/body-parser is being purged
+59 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/body-parser
+60 silly gentlyRm /home/kya/.npm/brace-expansion is being purged
+61 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/brace-expansion
+62 silly gentlyRm /home/kya/.npm/buffer-from is being purged
+63 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/buffer-from
+64 silly gentlyRm /home/kya/.npm/builtins is being purged
+65 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/builtins
+66 silly gentlyRm /home/kya/.npm/cacache is being purged
+67 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/cacache
+68 silly gentlyRm /home/kya/.npm/caseless is being purged
+69 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/caseless
+70 silly gentlyRm /home/kya/.npm/chalk is being purged
+71 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/chalk
+72 silly gentlyRm /home/kya/.npm/chardet is being purged
+73 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/chardet
+74 silly gentlyRm /home/kya/.npm/chownr is being purged
+75 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/chownr
+76 silly gentlyRm /home/kya/.npm/cli-cursor is being purged
+77 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/cli-cursor
+78 silly gentlyRm /home/kya/.npm/cli-spinners is being purged
+79 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/cli-spinners
+80 silly gentlyRm /home/kya/.npm/cli-width is being purged
+81 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/cli-width
+82 silly gentlyRm /home/kya/.npm/clone is being purged
+83 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/clone
+84 silly gentlyRm /home/kya/.npm/color-convert is being purged
+85 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/color-convert
+86 silly gentlyRm /home/kya/.npm/color-name is being purged
+87 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/color-name
+88 silly gentlyRm /home/kya/.npm/combined-stream is being purged
+89 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/combined-stream
+90 silly gentlyRm /home/kya/.npm/compression is being purged
+91 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/compression
+92 silly gentlyRm /home/kya/.npm/concat-map is being purged
+93 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/concat-map
+94 silly gentlyRm /home/kya/.npm/concat-stream is being purged
+95 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/concat-stream
+96 silly gentlyRm /home/kya/.npm/connect-pause is being purged
+97 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/connect-pause
+98 silly gentlyRm /home/kya/.npm/copy-concurrently is being purged
+99 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/copy-concurrently
+100 silly gentlyRm /home/kya/.npm/core-util-is is being purged
+101 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/core-util-is
+102 silly gentlyRm /home/kya/.npm/cors is being purged
+103 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/cors
+104 silly gentlyRm /home/kya/.npm/cyclist is being purged
+105 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/cyclist
+106 silly gentlyRm /home/kya/.npm/dashdash is being purged
+107 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/dashdash
+108 silly gentlyRm /home/kya/.npm/debug is being purged
+109 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/debug
+110 silly gentlyRm /home/kya/.npm/debuglog is being purged
+111 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/debuglog
+112 silly gentlyRm /home/kya/.npm/defaults is being purged
+113 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/defaults
+114 silly gentlyRm /home/kya/.npm/define-properties is being purged
+115 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/define-properties
+116 silly gentlyRm /home/kya/.npm/delayed-stream is being purged
+117 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/delayed-stream
+118 silly gentlyRm /home/kya/.npm/dezalgo is being purged
+119 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/dezalgo
+120 silly gentlyRm /home/kya/.npm/duplexify is being purged
+121 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/duplexify
+122 silly gentlyRm /home/kya/.npm/ecc-jsbn is being purged
+123 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/ecc-jsbn
+124 silly gentlyRm /home/kya/.npm/emoji-regex is being purged
+125 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/emoji-regex
+126 silly gentlyRm /home/kya/.npm/encoding is being purged
+127 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/encoding
+128 silly gentlyRm /home/kya/.npm/end-of-stream is being purged
+129 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/end-of-stream
+130 silly gentlyRm /home/kya/.npm/err-code is being purged
+131 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/err-code
+132 silly gentlyRm /home/kya/.npm/errorhandler is being purged
+133 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/errorhandler
+134 silly gentlyRm /home/kya/.npm/es-abstract is being purged
+135 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/es-abstract
+136 silly gentlyRm /home/kya/.npm/es-to-primitive is being purged
+137 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/es-to-primitive
+138 silly gentlyRm /home/kya/.npm/es6-promise is being purged
+139 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/es6-promise
+140 silly gentlyRm /home/kya/.npm/es6-promisify is being purged
+141 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/es6-promisify
+142 silly gentlyRm /home/kya/.npm/escape-string-regexp is being purged
+143 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/escape-string-regexp
+144 silly gentlyRm /home/kya/.npm/express is being purged
+145 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/express
+146 silly gentlyRm /home/kya/.npm/express-urlrewrite is being purged
+147 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/express-urlrewrite
+148 silly gentlyRm /home/kya/.npm/extend is being purged
+149 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/extend
+150 silly gentlyRm /home/kya/.npm/external-editor is being purged
+151 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/external-editor
+152 silly gentlyRm /home/kya/.npm/extsprintf is being purged
+153 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/extsprintf
+154 silly gentlyRm /home/kya/.npm/fast-deep-equal is being purged
+155 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/fast-deep-equal
+156 silly gentlyRm /home/kya/.npm/fast-json-stable-stringify is being purged
+157 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/fast-json-stable-stringify
+158 silly gentlyRm /home/kya/.npm/figgy-pudding is being purged
+159 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/figgy-pudding
+160 silly gentlyRm /home/kya/.npm/figures is being purged
+161 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/figures
+162 silly gentlyRm /home/kya/.npm/flush-write-stream is being purged
+163 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/flush-write-stream
+164 silly gentlyRm /home/kya/.npm/forever-agent is being purged
+165 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/forever-agent
+166 silly gentlyRm /home/kya/.npm/form-data is being purged
+167 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/form-data
+168 silly gentlyRm /home/kya/.npm/from2 is being purged
+169 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/from2
+170 silly gentlyRm /home/kya/.npm/fs-minipass is being purged
+171 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/fs-minipass
+172 silly gentlyRm /home/kya/.npm/fs-write-stream-atomic is being purged
+173 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/fs-write-stream-atomic
+174 silly gentlyRm /home/kya/.npm/fs.realpath is being purged
+175 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/fs.realpath
+176 silly gentlyRm /home/kya/.npm/function-bind is being purged
+177 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/function-bind
+178 silly gentlyRm /home/kya/.npm/genfun is being purged
+179 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/genfun
+180 silly gentlyRm /home/kya/.npm/get-stream is being purged
+181 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/get-stream
+182 silly gentlyRm /home/kya/.npm/getpass is being purged
+183 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/getpass
+184 silly gentlyRm /home/kya/.npm/glob is being purged
+185 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/glob
+186 silly gentlyRm /home/kya/.npm/graceful-fs is being purged
+187 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/graceful-fs
+188 silly gentlyRm /home/kya/.npm/har-schema is being purged
+189 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/har-schema
+190 silly gentlyRm /home/kya/.npm/har-validator is being purged
+191 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/har-validator
+192 silly gentlyRm /home/kya/.npm/has is being purged
+193 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/has
+194 silly gentlyRm /home/kya/.npm/has-flag is being purged
+195 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/has-flag
+196 silly gentlyRm /home/kya/.npm/has-symbols is being purged
+197 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/has-symbols
+198 silly gentlyRm /home/kya/.npm/hosted-git-info is being purged
+199 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/hosted-git-info
+200 silly gentlyRm /home/kya/.npm/http-cache-semantics is being purged
+201 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/http-cache-semantics
+202 silly gentlyRm /home/kya/.npm/http-proxy-agent is being purged
+203 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/http-proxy-agent
+204 silly gentlyRm /home/kya/.npm/http-signature is being purged
+205 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/http-signature
+206 silly gentlyRm /home/kya/.npm/https-proxy-agent is being purged
+207 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/https-proxy-agent
+208 silly gentlyRm /home/kya/.npm/humanize-ms is being purged
+209 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/humanize-ms
+210 silly gentlyRm /home/kya/.npm/iconv-lite is being purged
+211 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/iconv-lite
+212 silly gentlyRm /home/kya/.npm/iferr is being purged
+213 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/iferr
+214 silly gentlyRm /home/kya/.npm/ignore-walk is being purged
+215 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/ignore-walk
+216 silly gentlyRm /home/kya/.npm/imurmurhash is being purged
+217 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/imurmurhash
+218 silly gentlyRm /home/kya/.npm/infer-owner is being purged
+219 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/infer-owner
+220 silly gentlyRm /home/kya/.npm/inflight is being purged
+221 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/inflight
+222 silly gentlyRm /home/kya/.npm/inherits is being purged
+223 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/inherits
+224 silly gentlyRm /home/kya/.npm/ini is being purged
+225 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/ini
+226 silly gentlyRm /home/kya/.npm/inquirer is being purged
+227 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/inquirer
+228 silly gentlyRm /home/kya/.npm/ip is being purged
+229 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/ip
+230 silly gentlyRm /home/kya/.npm/is-callable is being purged
+231 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/is-callable
+232 silly gentlyRm /home/kya/.npm/is-core-module is being purged
+233 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/is-core-module
+234 silly gentlyRm /home/kya/.npm/is-date-object is being purged
+235 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/is-date-object
+236 silly gentlyRm /home/kya/.npm/is-docker is being purged
+237 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/is-docker
+238 silly gentlyRm /home/kya/.npm/is-fullwidth-code-point is being purged
+239 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/is-fullwidth-code-point
+240 silly gentlyRm /home/kya/.npm/is-interactive is being purged
+241 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/is-interactive
+242 silly gentlyRm /home/kya/.npm/is-regex is being purged
+243 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/is-regex
+244 silly gentlyRm /home/kya/.npm/is-symbol is being purged
+245 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/is-symbol
+246 silly gentlyRm /home/kya/.npm/is-typedarray is being purged
+247 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/is-typedarray
+248 silly gentlyRm /home/kya/.npm/is-wsl is being purged
+249 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/is-wsl
+250 silly gentlyRm /home/kya/.npm/isarray is being purged
+251 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/isarray
+252 silly gentlyRm /home/kya/.npm/isexe is being purged
+253 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/isexe
+254 silly gentlyRm /home/kya/.npm/isstream is being purged
+255 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/isstream
+256 silly gentlyRm /home/kya/.npm/jsbn is being purged
+257 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/jsbn
+258 silly gentlyRm /home/kya/.npm/json-parse-better-errors is being purged
+259 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/json-parse-better-errors
+260 silly gentlyRm /home/kya/.npm/json-parse-helpfulerror is being purged
+261 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/json-parse-helpfulerror
+262 silly gentlyRm /home/kya/.npm/json-schema is being purged
+263 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/json-schema
+264 silly gentlyRm /home/kya/.npm/json-schema-traverse is being purged
+265 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/json-schema-traverse
+266 silly gentlyRm /home/kya/.npm/json-server is being purged
+267 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/json-server
+268 silly gentlyRm /home/kya/.npm/json-stringify-safe is being purged
+269 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/json-stringify-safe
+270 silly gentlyRm /home/kya/.npm/jsonc-parser is being purged
+271 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/jsonc-parser
+272 silly gentlyRm /home/kya/.npm/jsonparse is being purged
+273 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/jsonparse
+274 silly gentlyRm /home/kya/.npm/jsprim is being purged
+275 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/jsprim
+276 silly gentlyRm /home/kya/.npm/latest is being purged
+277 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/latest
+278 silly gentlyRm /home/kya/.npm/lodash is being purged
+279 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/lodash
+280 silly gentlyRm /home/kya/.npm/lodash-id is being purged
+281 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/lodash-id
+282 silly gentlyRm /home/kya/.npm/log-symbols is being purged
+283 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/log-symbols
+284 silly gentlyRm /home/kya/.npm/lowdb is being purged
+285 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/lowdb
+286 silly gentlyRm /home/kya/.npm/lru-cache is being purged
+287 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/lru-cache
+288 silly gentlyRm /home/kya/.npm/magic-string is being purged
+289 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/magic-string
+290 silly gentlyRm /home/kya/.npm/make-fetch-happen is being purged
+291 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/make-fetch-happen
+292 silly gentlyRm /home/kya/.npm/method-override is being purged
+293 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/method-override
+294 silly gentlyRm /home/kya/.npm/mime-db is being purged
+295 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/mime-db
+296 silly gentlyRm /home/kya/.npm/mime-types is being purged
+297 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/mime-types
+298 silly gentlyRm /home/kya/.npm/mimic-fn is being purged
+299 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/mimic-fn
+300 silly gentlyRm /home/kya/.npm/minimatch is being purged
+301 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/minimatch
+302 silly gentlyRm /home/kya/.npm/minimist is being purged
+303 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/minimist
+304 silly gentlyRm /home/kya/.npm/minipass is being purged
+305 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/minipass
+306 silly gentlyRm /home/kya/.npm/minizlib is being purged
+307 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/minizlib
+308 silly gentlyRm /home/kya/.npm/mississippi is being purged
+309 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/mississippi
+310 silly gentlyRm /home/kya/.npm/mkdirp is being purged
+311 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/mkdirp
+312 silly gentlyRm /home/kya/.npm/morgan is being purged
+313 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/morgan
+314 silly gentlyRm /home/kya/.npm/move-concurrently is being purged
+315 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/move-concurrently
+316 silly gentlyRm /home/kya/.npm/ms is being purged
+317 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/ms
+318 silly gentlyRm /home/kya/.npm/mute-stream is being purged
+319 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/mute-stream
+320 silly gentlyRm /home/kya/.npm/n is being purged
+321 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/n
+322 silly gentlyRm /home/kya/.npm/node-fetch-npm is being purged
+323 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/node-fetch-npm
+324 silly gentlyRm /home/kya/.npm/normalize-package-data is being purged
+325 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/normalize-package-data
+326 silly gentlyRm /home/kya/.npm/npm is being purged
+327 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/npm
+328 silly gentlyRm /home/kya/.npm/npm-bundled is being purged
+329 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/npm-bundled
+330 silly gentlyRm /home/kya/.npm/npm-install-checks is being purged
+331 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/npm-install-checks
+332 silly gentlyRm /home/kya/.npm/npm-normalize-package-bin is being purged
+333 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/npm-normalize-package-bin
+334 silly gentlyRm /home/kya/.npm/npm-package-arg is being purged
+335 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/npm-package-arg
+336 silly gentlyRm /home/kya/.npm/npm-packlist is being purged
+337 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/npm-packlist
+338 silly gentlyRm /home/kya/.npm/npm-pick-manifest is being purged
+339 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/npm-pick-manifest
+340 silly gentlyRm /home/kya/.npm/npm-registry-fetch is being purged
+341 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/npm-registry-fetch
+342 silly gentlyRm /home/kya/.npm/oauth-sign is being purged
+343 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/oauth-sign
+344 silly gentlyRm /home/kya/.npm/object-inspect is being purged
+345 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/object-inspect
+346 silly gentlyRm /home/kya/.npm/object-keys is being purged
+347 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/object-keys
+348 silly gentlyRm /home/kya/.npm/object.assign is being purged
+349 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/object.assign
+350 silly gentlyRm /home/kya/.npm/object.getownpropertydescriptors is being purged
+351 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/object.getownpropertydescriptors
+352 silly gentlyRm /home/kya/.npm/once is being purged
+353 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/once
+354 silly gentlyRm /home/kya/.npm/onetime is being purged
+355 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/onetime
+356 silly gentlyRm /home/kya/.npm/open is being purged
+357 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/open
+358 silly gentlyRm /home/kya/.npm/ora is being purged
+359 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/ora
+360 silly gentlyRm /home/kya/.npm/os-homedir is being purged
+361 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/os-homedir
+362 silly gentlyRm /home/kya/.npm/os-tmpdir is being purged
+363 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/os-tmpdir
+364 silly gentlyRm /home/kya/.npm/osenv is being purged
+365 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/osenv
+366 silly gentlyRm /home/kya/.npm/pacote is being purged
+367 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/pacote
+368 silly gentlyRm /home/kya/.npm/parallel-transform is being purged
+369 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/parallel-transform
+370 silly gentlyRm /home/kya/.npm/path-is-absolute is being purged
+371 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/path-is-absolute
+372 silly gentlyRm /home/kya/.npm/path-parse is being purged
+373 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/path-parse
+374 silly gentlyRm /home/kya/.npm/performance-now is being purged
+375 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/performance-now
+376 silly gentlyRm /home/kya/.npm/please-upgrade-node is being purged
+377 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/please-upgrade-node
+378 silly gentlyRm /home/kya/.npm/pluralize is being purged
+379 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/pluralize
+380 silly gentlyRm /home/kya/.npm/process-nextick-args is being purged
+381 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/process-nextick-args
+382 silly gentlyRm /home/kya/.npm/promise-inflight is being purged
+383 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/promise-inflight
+384 silly gentlyRm /home/kya/.npm/promise-retry is being purged
+385 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/promise-retry
+386 silly gentlyRm /home/kya/.npm/protoduck is being purged
+387 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/protoduck
+388 silly gentlyRm /home/kya/.npm/psl is being purged
+389 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/psl
+390 silly gentlyRm /home/kya/.npm/pump is being purged
+391 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/pump
+392 silly gentlyRm /home/kya/.npm/pumpify is being purged
+393 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/pumpify
+394 silly gentlyRm /home/kya/.npm/punycode is being purged
+395 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/punycode
+396 silly gentlyRm /home/kya/.npm/qs is being purged
+397 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/qs
+398 silly gentlyRm /home/kya/.npm/read-package-json is being purged
+399 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/read-package-json
+400 silly gentlyRm /home/kya/.npm/read-package-tree is being purged
+401 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/read-package-tree
+402 silly gentlyRm /home/kya/.npm/readable-stream is being purged
+403 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/readable-stream
+404 silly gentlyRm /home/kya/.npm/readdir-scoped-modules is being purged
+405 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/readdir-scoped-modules
+406 silly gentlyRm /home/kya/.npm/registry.npmjs.org is being purged
+407 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/registry.npmjs.org
+408 silly gentlyRm /home/kya/.npm/request is being purged
+409 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/request
+410 silly gentlyRm /home/kya/.npm/resolve is being purged
+411 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/resolve
+412 silly gentlyRm /home/kya/.npm/restore-cursor is being purged
+413 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/restore-cursor
+414 silly gentlyRm /home/kya/.npm/retry is being purged
+415 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/retry
+416 silly gentlyRm /home/kya/.npm/rimraf is being purged
+417 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/rimraf
+418 silly gentlyRm /home/kya/.npm/run-async is being purged
+419 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/run-async
+420 silly gentlyRm /home/kya/.npm/run-queue is being purged
+421 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/run-queue
+422 silly gentlyRm /home/kya/.npm/rxjs is being purged
+423 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/rxjs
+424 silly gentlyRm /home/kya/.npm/safe-buffer is being purged
+425 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/safe-buffer
+426 silly gentlyRm /home/kya/.npm/safer-buffer is being purged
+427 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/safer-buffer
+428 silly gentlyRm /home/kya/.npm/semver is being purged
+429 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/semver
+430 silly gentlyRm /home/kya/.npm/semver-intersect is being purged
+431 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/semver-intersect
+432 silly gentlyRm /home/kya/.npm/server-destroy is being purged
+433 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/server-destroy
+434 silly gentlyRm /home/kya/.npm/signal-exit is being purged
+435 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/signal-exit
+436 silly gentlyRm /home/kya/.npm/smart-buffer is being purged
+437 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/smart-buffer
+438 silly gentlyRm /home/kya/.npm/socks is being purged
+439 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/socks
+440 silly gentlyRm /home/kya/.npm/socks-proxy-agent is being purged
+441 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/socks-proxy-agent
+442 silly gentlyRm /home/kya/.npm/source-map is being purged
+443 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/source-map
+444 silly gentlyRm /home/kya/.npm/sourcemap-codec is being purged
+445 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/sourcemap-codec
+446 silly gentlyRm /home/kya/.npm/spdx-correct is being purged
+447 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/spdx-correct
+448 silly gentlyRm /home/kya/.npm/spdx-exceptions is being purged
+449 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/spdx-exceptions
+450 silly gentlyRm /home/kya/.npm/spdx-expression-parse is being purged
+451 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/spdx-expression-parse
+452 silly gentlyRm /home/kya/.npm/spdx-license-ids is being purged
+453 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/spdx-license-ids
+454 silly gentlyRm /home/kya/.npm/sshpk is being purged
+455 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/sshpk
+456 silly gentlyRm /home/kya/.npm/ssri is being purged
+457 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/ssri
+458 silly gentlyRm /home/kya/.npm/stream-each is being purged
+459 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/stream-each
+460 silly gentlyRm /home/kya/.npm/stream-shift is being purged
+461 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/stream-shift
+462 silly gentlyRm /home/kya/.npm/string-width is being purged
+463 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/string-width
+464 silly gentlyRm /home/kya/.npm/string.prototype.trimend is being purged
+465 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/string.prototype.trimend
+466 silly gentlyRm /home/kya/.npm/string.prototype.trimleft is being purged
+467 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/string.prototype.trimleft
+468 silly gentlyRm /home/kya/.npm/string.prototype.trimright is being purged
+469 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/string.prototype.trimright
+470 silly gentlyRm /home/kya/.npm/string.prototype.trimstart is being purged
+471 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/string.prototype.trimstart
+472 silly gentlyRm /home/kya/.npm/string_decoder is being purged
+473 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/string_decoder
+474 silly gentlyRm /home/kya/.npm/strip-ansi is being purged
+475 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/strip-ansi
+476 silly gentlyRm /home/kya/.npm/supports-color is being purged
+477 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/supports-color
+478 silly gentlyRm /home/kya/.npm/symbol-observable is being purged
+479 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/symbol-observable
+480 silly gentlyRm /home/kya/.npm/tar is being purged
+481 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/tar
+482 silly gentlyRm /home/kya/.npm/through is being purged
+483 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/through
+484 silly gentlyRm /home/kya/.npm/through2 is being purged
+485 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/through2
+486 silly gentlyRm /home/kya/.npm/tmp is being purged
+487 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/tmp
+488 silly gentlyRm /home/kya/.npm/tough-cookie is being purged
+489 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/tough-cookie
+490 silly gentlyRm /home/kya/.npm/tslib is being purged
+491 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/tslib
+492 silly gentlyRm /home/kya/.npm/tunnel-agent is being purged
+493 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/tunnel-agent
+494 silly gentlyRm /home/kya/.npm/tweetnacl is being purged
+495 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/tweetnacl
+496 silly gentlyRm /home/kya/.npm/type-fest is being purged
+497 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/type-fest
+498 silly gentlyRm /home/kya/.npm/typedarray is being purged
+499 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/typedarray
+500 silly gentlyRm /home/kya/.npm/types-registry is being purged
+501 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/types-registry
+502 silly gentlyRm /home/kya/.npm/unique-filename is being purged
+503 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/unique-filename
+504 silly gentlyRm /home/kya/.npm/unique-slug is being purged
+505 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/unique-slug
+506 silly gentlyRm /home/kya/.npm/universal-analytics is being purged
+507 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/universal-analytics
+508 silly gentlyRm /home/kya/.npm/update-notifier is being purged
+509 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/update-notifier
+510 silly gentlyRm /home/kya/.npm/uri-js is being purged
+511 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/uri-js
+512 silly gentlyRm /home/kya/.npm/util-deprecate is being purged
+513 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/util-deprecate
+514 silly gentlyRm /home/kya/.npm/util-promisify is being purged
+515 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/util-promisify
+516 silly gentlyRm /home/kya/.npm/uuid is being purged
+517 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/uuid
+518 silly gentlyRm /home/kya/.npm/validate-npm-package-license is being purged
+519 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/validate-npm-package-license
+520 silly gentlyRm /home/kya/.npm/validate-npm-package-name is being purged
+521 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/validate-npm-package-name
+522 silly gentlyRm /home/kya/.npm/verror is being purged
+523 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/verror
+524 silly gentlyRm /home/kya/.npm/wcwidth is being purged
+525 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/wcwidth
+526 silly gentlyRm /home/kya/.npm/which is being purged
+527 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/which
+528 silly gentlyRm /home/kya/.npm/wrappy is being purged
+529 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/wrappy
+530 silly gentlyRm /home/kya/.npm/xtend is being purged
+531 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/xtend
+532 silly gentlyRm /home/kya/.npm/y18n is being purged
+533 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/y18n
+534 silly gentlyRm /home/kya/.npm/yallist is being purged
+535 verbose gentlyRm don't care about contents; nuking /home/kya/.npm/yallist
+536 silly vacuum-fs purging /home/kya/.npm/@angular
+537 silly vacuum-fs purging /home/kya/.npm/@angular-devkit
+538 silly vacuum-fs purging /home/kya/.npm/@schematics
+539 silly vacuum-fs purging /home/kya/.npm/@types
+540 silly vacuum-fs purging /home/kya/.npm/@yarnpkg
+541 silly vacuum-fs purging /home/kya/.npm/JSONStream
+542 silly vacuum-fs purging /home/kya/.npm/_cacache
+543 silly vacuum-fs purging /home/kya/.npm/_locks
+544 silly vacuum-fs purging /home/kya/.npm/agent-base
+545 silly vacuum-fs purging /home/kya/.npm/agentkeepalive
+546 silly vacuum-fs purging /home/kya/.npm/ajv
+547 silly vacuum-fs purging /home/kya/.npm/anonymous-cli-metrics.json
+548 silly vacuum-fs purging /home/kya/.npm/ansi-colors
+549 silly vacuum-fs purging /home/kya/.npm/ansi-escapes
+550 silly vacuum-fs purging /home/kya/.npm/ansi-regex
+551 silly vacuum-fs purging /home/kya/.npm/ansi-styles
+552 silly vacuum-fs purging /home/kya/.npm/aproba
+553 silly vacuum-fs purging /home/kya/.npm/asap
+554 silly vacuum-fs purging /home/kya/.npm/asn1
+555 silly vacuum-fs purging /home/kya/.npm/assert-plus
+556 silly vacuum-fs purging /home/kya/.npm/asynckit
+557 silly vacuum-fs purging /home/kya/.npm/aws-sign2
+558 silly vacuum-fs purging /home/kya/.npm/aws4
+559 silly vacuum-fs purging /home/kya/.npm/balanced-match
+560 silly vacuum-fs purging /home/kya/.npm/bcrypt-pbkdf
+561 silly vacuum-fs purging /home/kya/.npm/bluebird
+562 silly vacuum-fs purging /home/kya/.npm/body-parser
+563 silly vacuum-fs purging /home/kya/.npm/brace-expansion
+564 silly vacuum-fs purging /home/kya/.npm/buffer-from
+565 silly vacuum-fs purging /home/kya/.npm/builtins
+566 silly vacuum-fs purging /home/kya/.npm/cacache
+567 silly vacuum-fs purging /home/kya/.npm/caseless
+568 silly vacuum-fs purging /home/kya/.npm/chalk
+569 silly vacuum-fs purging /home/kya/.npm/chardet
+570 silly vacuum-fs purging /home/kya/.npm/chownr
+571 silly vacuum-fs purging /home/kya/.npm/cli-cursor
+572 silly vacuum-fs purging /home/kya/.npm/cli-spinners
+573 silly vacuum-fs purging /home/kya/.npm/cli-width
+574 silly vacuum-fs purging /home/kya/.npm/clone
+575 silly vacuum-fs purging /home/kya/.npm/color-convert
+576 silly vacuum-fs purging /home/kya/.npm/color-name
+577 silly vacuum-fs purging /home/kya/.npm/combined-stream
+578 silly vacuum-fs purging /home/kya/.npm/compression
+579 silly vacuum-fs purging /home/kya/.npm/concat-map
+580 silly vacuum-fs purging /home/kya/.npm/concat-stream
+581 silly vacuum-fs purging /home/kya/.npm/connect-pause
+582 silly vacuum-fs purging /home/kya/.npm/copy-concurrently
+583 silly vacuum-fs purging /home/kya/.npm/core-util-is
+584 silly vacuum-fs purging /home/kya/.npm/cors
+585 silly vacuum-fs purging /home/kya/.npm/cyclist
+586 silly vacuum-fs purging /home/kya/.npm/dashdash
+587 silly vacuum-fs purging /home/kya/.npm/debug
+588 silly vacuum-fs purging /home/kya/.npm/debuglog
+589 silly vacuum-fs purging /home/kya/.npm/defaults
+590 silly vacuum-fs purging /home/kya/.npm/define-properties
+591 silly vacuum-fs purging /home/kya/.npm/delayed-stream
+592 silly vacuum-fs purging /home/kya/.npm/dezalgo
+593 silly vacuum-fs purging /home/kya/.npm/duplexify
+594 silly vacuum-fs purging /home/kya/.npm/ecc-jsbn
+595 silly vacuum-fs purging /home/kya/.npm/emoji-regex
+596 silly vacuum-fs purging /home/kya/.npm/encoding
+597 silly vacuum-fs purging /home/kya/.npm/end-of-stream
+598 silly vacuum-fs purging /home/kya/.npm/err-code
+599 silly vacuum-fs purging /home/kya/.npm/errorhandler
+600 silly vacuum-fs purging /home/kya/.npm/es-abstract
+601 silly vacuum-fs purging /home/kya/.npm/es-to-primitive
+602 silly vacuum-fs purging /home/kya/.npm/es6-promise
+603 silly vacuum-fs purging /home/kya/.npm/es6-promisify
+604 silly vacuum-fs purging /home/kya/.npm/escape-string-regexp
+605 silly vacuum-fs purging /home/kya/.npm/express
+606 silly vacuum-fs purging /home/kya/.npm/express-urlrewrite
+607 silly vacuum-fs purging /home/kya/.npm/extend
+608 silly vacuum-fs purging /home/kya/.npm/external-editor
+609 silly vacuum-fs purging /home/kya/.npm/extsprintf
+610 silly vacuum-fs purging /home/kya/.npm/fast-deep-equal
+611 silly vacuum-fs purging /home/kya/.npm/fast-json-stable-stringify
+612 silly vacuum-fs purging /home/kya/.npm/figgy-pudding
+613 silly vacuum-fs purging /home/kya/.npm/figures
+614 silly vacuum-fs purging /home/kya/.npm/flush-write-stream
+615 silly vacuum-fs purging /home/kya/.npm/forever-agent
+616 silly vacuum-fs purging /home/kya/.npm/form-data
+617 silly vacuum-fs purging /home/kya/.npm/from2
+618 silly vacuum-fs purging /home/kya/.npm/fs-minipass
+619 silly vacuum-fs purging /home/kya/.npm/fs-write-stream-atomic
+620 silly vacuum-fs purging /home/kya/.npm/fs.realpath
+621 silly vacuum-fs purging /home/kya/.npm/function-bind
+622 silly vacuum-fs purging /home/kya/.npm/genfun
+623 silly vacuum-fs purging /home/kya/.npm/get-stream
+624 silly vacuum-fs purging /home/kya/.npm/getpass
+625 silly vacuum-fs purging /home/kya/.npm/glob
+626 silly vacuum-fs purging /home/kya/.npm/graceful-fs
+627 silly vacuum-fs purging /home/kya/.npm/har-schema
+628 silly vacuum-fs purging /home/kya/.npm/har-validator
+629 silly vacuum-fs purging /home/kya/.npm/has
+630 silly vacuum-fs purging /home/kya/.npm/has-flag
+631 silly vacuum-fs purging /home/kya/.npm/has-symbols
+632 silly vacuum-fs purging /home/kya/.npm/hosted-git-info
+633 silly vacuum-fs purging /home/kya/.npm/http-cache-semantics
+634 silly vacuum-fs purging /home/kya/.npm/http-proxy-agent
+635 silly vacuum-fs purging /home/kya/.npm/http-signature
+636 silly vacuum-fs purging /home/kya/.npm/https-proxy-agent
+637 silly vacuum-fs purging /home/kya/.npm/humanize-ms
+638 silly vacuum-fs purging /home/kya/.npm/iconv-lite
+639 silly vacuum-fs purging /home/kya/.npm/iferr
+640 silly vacuum-fs purging /home/kya/.npm/ignore-walk
+641 silly vacuum-fs purging /home/kya/.npm/imurmurhash
+642 silly vacuum-fs purging /home/kya/.npm/infer-owner
+643 silly vacuum-fs purging /home/kya/.npm/inflight
+644 silly vacuum-fs purging /home/kya/.npm/inherits
+645 silly vacuum-fs purging /home/kya/.npm/ini
+646 silly vacuum-fs purging /home/kya/.npm/inquirer
+647 silly vacuum-fs purging /home/kya/.npm/ip
+648 silly vacuum-fs purging /home/kya/.npm/is-callable
+649 silly vacuum-fs purging /home/kya/.npm/is-core-module
+650 silly vacuum-fs purging /home/kya/.npm/is-date-object
+651 silly vacuum-fs purging /home/kya/.npm/is-docker
+652 silly vacuum-fs purging /home/kya/.npm/is-fullwidth-code-point
+653 silly vacuum-fs purging /home/kya/.npm/is-interactive
+654 silly vacuum-fs purging /home/kya/.npm/is-regex
+655 silly vacuum-fs purging /home/kya/.npm/is-symbol
+656 silly vacuum-fs purging /home/kya/.npm/is-typedarray
+657 silly vacuum-fs purging /home/kya/.npm/is-wsl
+658 silly vacuum-fs purging /home/kya/.npm/isarray
+659 silly vacuum-fs purging /home/kya/.npm/isexe
+660 silly vacuum-fs purging /home/kya/.npm/isstream
+661 silly vacuum-fs purging /home/kya/.npm/jsbn
+662 silly vacuum-fs purging /home/kya/.npm/json-parse-better-errors
+663 silly vacuum-fs purging /home/kya/.npm/json-parse-helpfulerror
+664 silly vacuum-fs purging /home/kya/.npm/json-schema
+665 silly vacuum-fs purging /home/kya/.npm/json-schema-traverse
+666 silly vacuum-fs purging /home/kya/.npm/json-server
+667 silly vacuum-fs purging /home/kya/.npm/json-stringify-safe
+668 silly vacuum-fs purging /home/kya/.npm/jsonc-parser
+669 silly vacuum-fs purging /home/kya/.npm/jsonparse
+670 silly vacuum-fs purging /home/kya/.npm/jsprim
+671 silly vacuum-fs purging /home/kya/.npm/latest
+672 silly vacuum-fs purging /home/kya/.npm/lodash
+673 silly vacuum-fs purging /home/kya/.npm/lodash-id
+674 silly vacuum-fs purging /home/kya/.npm/log-symbols
+675 silly vacuum-fs purging /home/kya/.npm/lowdb
+676 silly vacuum-fs purging /home/kya/.npm/lru-cache
+677 silly vacuum-fs purging /home/kya/.npm/magic-string
+678 silly vacuum-fs purging /home/kya/.npm/make-fetch-happen
+679 silly vacuum-fs purging /home/kya/.npm/method-override
+680 silly vacuum-fs purging /home/kya/.npm/mime-db
+681 silly vacuum-fs purging /home/kya/.npm/mime-types
+682 silly vacuum-fs purging /home/kya/.npm/mimic-fn
+683 silly vacuum-fs purging /home/kya/.npm/minimatch
+684 silly vacuum-fs purging /home/kya/.npm/minimist
+685 silly vacuum-fs purging /home/kya/.npm/minipass
+686 silly vacuum-fs purging /home/kya/.npm/minizlib
+687 silly vacuum-fs purging /home/kya/.npm/mississippi
+688 silly vacuum-fs purging /home/kya/.npm/mkdirp
+689 silly vacuum-fs purging /home/kya/.npm/morgan
+690 silly vacuum-fs purging /home/kya/.npm/move-concurrently
+691 silly vacuum-fs purging /home/kya/.npm/ms
+692 silly vacuum-fs purging /home/kya/.npm/mute-stream
+693 silly vacuum-fs purging /home/kya/.npm/n
+694 silly vacuum-fs purging /home/kya/.npm/node-fetch-npm
+695 silly vacuum-fs purging /home/kya/.npm/normalize-package-data
+696 silly vacuum-fs purging /home/kya/.npm/npm
+697 silly vacuum-fs purging /home/kya/.npm/npm-bundled
+698 silly vacuum-fs purging /home/kya/.npm/npm-install-checks
+699 silly vacuum-fs purging /home/kya/.npm/npm-normalize-package-bin
+700 silly vacuum-fs purging /home/kya/.npm/npm-package-arg
+701 silly vacuum-fs purging /home/kya/.npm/npm-packlist
+702 silly vacuum-fs purging /home/kya/.npm/npm-pick-manifest
+703 silly vacuum-fs purging /home/kya/.npm/npm-registry-fetch
+704 silly vacuum-fs purging /home/kya/.npm/oauth-sign
+705 silly vacuum-fs purging /home/kya/.npm/object-inspect
+706 silly vacuum-fs purging /home/kya/.npm/object-keys
+707 silly vacuum-fs purging /home/kya/.npm/object.assign
+708 silly vacuum-fs purging /home/kya/.npm/object.getownpropertydescriptors
+709 silly vacuum-fs purging /home/kya/.npm/once
+710 silly vacuum-fs purging /home/kya/.npm/onetime
+711 silly vacuum-fs purging /home/kya/.npm/open
+712 silly vacuum-fs purging /home/kya/.npm/ora
+713 silly vacuum-fs purging /home/kya/.npm/os-homedir
+714 silly vacuum-fs purging /home/kya/.npm/os-tmpdir
+715 silly vacuum-fs purging /home/kya/.npm/osenv
+716 silly vacuum-fs purging /home/kya/.npm/pacote
+717 silly vacuum-fs purging /home/kya/.npm/parallel-transform
+718 silly vacuum-fs purging /home/kya/.npm/path-is-absolute
+719 silly vacuum-fs purging /home/kya/.npm/path-parse
+720 silly vacuum-fs purging /home/kya/.npm/performance-now
+721 silly vacuum-fs purging /home/kya/.npm/please-upgrade-node
+722 silly vacuum-fs purging /home/kya/.npm/pluralize
+723 silly vacuum-fs purging /home/kya/.npm/process-nextick-args
+724 silly vacuum-fs purging /home/kya/.npm/promise-inflight
+725 silly vacuum-fs purging /home/kya/.npm/promise-retry
+726 silly vacuum-fs purging /home/kya/.npm/protoduck
+727 silly vacuum-fs purging /home/kya/.npm/psl
+728 silly vacuum-fs purging /home/kya/.npm/pump
+729 silly vacuum-fs purging /home/kya/.npm/pumpify
+730 silly vacuum-fs purging /home/kya/.npm/punycode
+731 silly vacuum-fs purging /home/kya/.npm/qs
+732 silly vacuum-fs purging /home/kya/.npm/read-package-json
+733 silly vacuum-fs purging /home/kya/.npm/read-package-tree
+734 silly vacuum-fs purging /home/kya/.npm/readable-stream
+735 silly vacuum-fs purging /home/kya/.npm/readdir-scoped-modules
+736 silly vacuum-fs purging /home/kya/.npm/registry.npmjs.org
+737 silly vacuum-fs purging /home/kya/.npm/request
+738 silly vacuum-fs purging /home/kya/.npm/resolve
+739 silly vacuum-fs purging /home/kya/.npm/restore-cursor
+740 silly vacuum-fs purging /home/kya/.npm/retry
+741 silly vacuum-fs purging /home/kya/.npm/rimraf
+742 silly vacuum-fs purging /home/kya/.npm/run-async
+743 silly vacuum-fs purging /home/kya/.npm/run-queue
+744 silly vacuum-fs purging /home/kya/.npm/rxjs
+745 silly vacuum-fs purging /home/kya/.npm/safe-buffer
+746 silly vacuum-fs purging /home/kya/.npm/safer-buffer
+747 silly vacuum-fs purging /home/kya/.npm/semver
+748 silly vacuum-fs purging /home/kya/.npm/semver-intersect
+749 silly vacuum-fs purging /home/kya/.npm/server-destroy
+750 silly vacuum-fs purging /home/kya/.npm/signal-exit
+751 silly vacuum-fs purging /home/kya/.npm/smart-buffer
+752 silly vacuum-fs purging /home/kya/.npm/socks
+753 silly vacuum-fs purging /home/kya/.npm/socks-proxy-agent
+754 silly vacuum-fs purging /home/kya/.npm/source-map
+755 silly vacuum-fs purging /home/kya/.npm/sourcemap-codec
+756 silly vacuum-fs purging /home/kya/.npm/spdx-correct
+757 silly vacuum-fs purging /home/kya/.npm/spdx-exceptions
+758 silly vacuum-fs purging /home/kya/.npm/spdx-expression-parse
+759 silly vacuum-fs purging /home/kya/.npm/spdx-license-ids
+760 silly vacuum-fs purging /home/kya/.npm/sshpk
+761 silly vacuum-fs purging /home/kya/.npm/ssri
+762 silly vacuum-fs purging /home/kya/.npm/stream-each
+763 silly vacuum-fs purging /home/kya/.npm/stream-shift
+764 silly vacuum-fs purging /home/kya/.npm/string-width
+765 silly vacuum-fs purging /home/kya/.npm/string.prototype.trimleft
+766 silly vacuum-fs purging /home/kya/.npm/string.prototype.trimright
+767 silly vacuum-fs purging /home/kya/.npm/string.prototype.trimstart
+768 silly vacuum-fs purging /home/kya/.npm/string_decoder
+769 silly vacuum-fs purging /home/kya/.npm/strip-ansi
+770 silly vacuum-fs purging /home/kya/.npm/supports-color
+771 silly vacuum-fs purging /home/kya/.npm/symbol-observable
+772 silly vacuum-fs purging /home/kya/.npm/tar
+773 silly vacuum-fs purging /home/kya/.npm/through
+774 silly vacuum-fs purging /home/kya/.npm/through2
+775 silly vacuum-fs purging /home/kya/.npm/tmp
+776 silly vacuum-fs purging /home/kya/.npm/tough-cookie
+777 silly vacuum-fs purging /home/kya/.npm/tslib
+778 silly vacuum-fs purging /home/kya/.npm/tunnel-agent
+779 silly vacuum-fs purging /home/kya/.npm/tweetnacl
+780 silly vacuum-fs purging /home/kya/.npm/type-fest
+781 silly vacuum-fs purging /home/kya/.npm/typedarray
+782 silly vacuum-fs purging /home/kya/.npm/unique-filename
+783 silly vacuum-fs purging /home/kya/.npm/universal-analytics
+784 silly vacuum-fs purging /home/kya/.npm/unique-slug
+785 silly vacuum-fs purging /home/kya/.npm/update-notifier
+786 silly vacuum-fs purging /home/kya/.npm/uri-js
+787 silly vacuum-fs purging /home/kya/.npm/util-deprecate
+788 silly vacuum-fs purging /home/kya/.npm/util-promisify
+789 silly vacuum-fs purging /home/kya/.npm/uuid
+790 silly vacuum-fs purging /home/kya/.npm/validate-npm-package-license
+791 silly vacuum-fs purging /home/kya/.npm/validate-npm-package-name
+792 silly vacuum-fs purging /home/kya/.npm/verror
+793 silly vacuum-fs purging /home/kya/.npm/wcwidth
+794 silly vacuum-fs purging /home/kya/.npm/which
+795 silly vacuum-fs purging /home/kya/.npm/wrappy
+796 silly vacuum-fs purging /home/kya/.npm/xtend
+797 silly vacuum-fs purging /home/kya/.npm/y18n
+798 silly vacuum-fs purging /home/kya/.npm/yallist
+799 silly vacuum-fs purging /home/kya/.npm/string.prototype.trimend
+800 silly vacuum-fs purging /home/kya/.npm/types-registry
+801 silly vacuum-fs quitting because other entries in /home/kya/.npm
+802 silly vacuum-fs quitting because other entries in /home/kya/.npm
+803 silly vacuum-fs quitting because other entries in /home/kya/.npm
+804 silly vacuum-fs quitting because other entries in /home/kya/.npm
+805 silly vacuum-fs quitting because other entries in /home/kya/.npm
+806 silly vacuum-fs quitting because other entries in /home/kya/.npm
+807 silly vacuum-fs quitting because other entries in /home/kya/.npm
+808 silly vacuum-fs quitting because other entries in /home/kya/.npm
+809 silly vacuum-fs quitting because other entries in /home/kya/.npm
+810 silly vacuum-fs quitting because other entries in /home/kya/.npm
+811 silly vacuum-fs quitting because other entries in /home/kya/.npm
+812 silly vacuum-fs quitting because other entries in /home/kya/.npm
+813 silly vacuum-fs quitting because other entries in /home/kya/.npm
+814 silly vacuum-fs quitting because other entries in /home/kya/.npm
+815 silly vacuum-fs quitting because other entries in /home/kya/.npm
+816 silly vacuum-fs quitting because other entries in /home/kya/.npm
+817 silly vacuum-fs quitting because other entries in /home/kya/.npm
+818 silly vacuum-fs quitting because other entries in /home/kya/.npm
+819 silly vacuum-fs quitting because other entries in /home/kya/.npm
+820 silly vacuum-fs quitting because other entries in /home/kya/.npm
+821 silly vacuum-fs quitting because other entries in /home/kya/.npm
+822 silly vacuum-fs quitting because other entries in /home/kya/.npm
+823 silly vacuum-fs quitting because other entries in /home/kya/.npm
+824 silly vacuum-fs quitting because other entries in /home/kya/.npm
+825 silly vacuum-fs quitting because other entries in /home/kya/.npm
+826 silly vacuum-fs quitting because other entries in /home/kya/.npm
+827 silly vacuum-fs quitting because other entries in /home/kya/.npm
+828 silly vacuum-fs quitting because other entries in /home/kya/.npm
+829 silly vacuum-fs quitting because other entries in /home/kya/.npm
+830 silly vacuum-fs quitting because other entries in /home/kya/.npm
+831 silly vacuum-fs quitting because other entries in /home/kya/.npm
+832 silly vacuum-fs quitting because other entries in /home/kya/.npm
+833 silly vacuum-fs quitting because other entries in /home/kya/.npm
+834 silly vacuum-fs quitting because other entries in /home/kya/.npm
+835 silly vacuum-fs quitting because other entries in /home/kya/.npm
+836 silly vacuum-fs quitting because other entries in /home/kya/.npm
+837 silly vacuum-fs quitting because other entries in /home/kya/.npm
+838 silly vacuum-fs quitting because other entries in /home/kya/.npm
+839 silly vacuum-fs quitting because other entries in /home/kya/.npm
+840 silly vacuum-fs quitting because other entries in /home/kya/.npm
+841 silly vacuum-fs quitting because other entries in /home/kya/.npm
+842 silly vacuum-fs quitting because other entries in /home/kya/.npm
+843 silly vacuum-fs quitting because other entries in /home/kya/.npm
+844 silly vacuum-fs quitting because other entries in /home/kya/.npm
+845 silly vacuum-fs quitting because other entries in /home/kya/.npm
+846 silly vacuum-fs quitting because other entries in /home/kya/.npm
+847 silly vacuum-fs quitting because other entries in /home/kya/.npm
+848 silly vacuum-fs quitting because other entries in /home/kya/.npm
+849 silly vacuum-fs quitting because other entries in /home/kya/.npm
+850 silly vacuum-fs quitting because other entries in /home/kya/.npm
+851 silly vacuum-fs quitting because other entries in /home/kya/.npm
+852 silly vacuum-fs quitting because other entries in /home/kya/.npm
+853 silly vacuum-fs quitting because other entries in /home/kya/.npm
+854 silly vacuum-fs quitting because other entries in /home/kya/.npm
+855 silly vacuum-fs quitting because other entries in /home/kya/.npm
+856 silly vacuum-fs quitting because other entries in /home/kya/.npm
+857 silly vacuum-fs quitting because other entries in /home/kya/.npm
+858 silly vacuum-fs quitting because other entries in /home/kya/.npm
+859 silly vacuum-fs quitting because other entries in /home/kya/.npm
+860 silly vacuum-fs quitting because other entries in /home/kya/.npm
+861 silly vacuum-fs quitting because other entries in /home/kya/.npm
+862 silly vacuum-fs quitting because other entries in /home/kya/.npm
+863 silly vacuum-fs quitting because other entries in /home/kya/.npm
+864 silly vacuum-fs quitting because other entries in /home/kya/.npm
+865 silly vacuum-fs quitting because other entries in /home/kya/.npm
+866 silly vacuum-fs quitting because other entries in /home/kya/.npm
+867 silly vacuum-fs quitting because other entries in /home/kya/.npm
+868 silly vacuum-fs quitting because other entries in /home/kya/.npm
+869 silly vacuum-fs quitting because other entries in /home/kya/.npm
+870 silly vacuum-fs quitting because other entries in /home/kya/.npm
+871 silly vacuum-fs quitting because other entries in /home/kya/.npm
+872 silly vacuum-fs quitting because other entries in /home/kya/.npm
+873 silly vacuum-fs quitting because other entries in /home/kya/.npm
+874 silly vacuum-fs quitting because other entries in /home/kya/.npm
+875 silly vacuum-fs quitting because other entries in /home/kya/.npm
+876 silly vacuum-fs quitting because other entries in /home/kya/.npm
+877 silly vacuum-fs quitting because other entries in /home/kya/.npm
+878 silly vacuum-fs quitting because other entries in /home/kya/.npm
+879 silly vacuum-fs quitting because other entries in /home/kya/.npm
+880 silly vacuum-fs quitting because other entries in /home/kya/.npm
+881 silly vacuum-fs quitting because other entries in /home/kya/.npm
+882 silly vacuum-fs quitting because other entries in /home/kya/.npm
+883 silly vacuum-fs quitting because other entries in /home/kya/.npm
+884 silly vacuum-fs quitting because other entries in /home/kya/.npm
+885 silly vacuum-fs quitting because other entries in /home/kya/.npm
+886 silly vacuum-fs quitting because other entries in /home/kya/.npm
+887 silly vacuum-fs quitting because other entries in /home/kya/.npm
+888 silly vacuum-fs quitting because other entries in /home/kya/.npm
+889 silly vacuum-fs quitting because other entries in /home/kya/.npm
+890 silly vacuum-fs quitting because other entries in /home/kya/.npm
+891 silly vacuum-fs quitting because other entries in /home/kya/.npm
+892 silly vacuum-fs quitting because other entries in /home/kya/.npm
+893 silly vacuum-fs quitting because other entries in /home/kya/.npm
+894 silly vacuum-fs quitting because other entries in /home/kya/.npm
+895 silly vacuum-fs quitting because other entries in /home/kya/.npm
+896 silly vacuum-fs quitting because other entries in /home/kya/.npm
+897 silly vacuum-fs quitting because other entries in /home/kya/.npm
+898 silly vacuum-fs quitting because other entries in /home/kya/.npm
+899 silly vacuum-fs quitting because other entries in /home/kya/.npm
+900 silly vacuum-fs quitting because other entries in /home/kya/.npm
+901 silly vacuum-fs quitting because other entries in /home/kya/.npm
+902 silly vacuum-fs quitting because other entries in /home/kya/.npm
+903 silly vacuum-fs quitting because other entries in /home/kya/.npm
+904 silly vacuum-fs quitting because other entries in /home/kya/.npm
+905 silly vacuum-fs quitting because other entries in /home/kya/.npm
+906 silly vacuum-fs quitting because other entries in /home/kya/.npm
+907 silly vacuum-fs quitting because other entries in /home/kya/.npm
+908 silly vacuum-fs quitting because other entries in /home/kya/.npm
+909 silly vacuum-fs quitting because other entries in /home/kya/.npm
+910 silly vacuum-fs quitting because other entries in /home/kya/.npm
+911 silly vacuum-fs quitting because other entries in /home/kya/.npm
+912 silly vacuum-fs quitting because other entries in /home/kya/.npm
+913 silly vacuum-fs quitting because other entries in /home/kya/.npm
+914 silly vacuum-fs quitting because other entries in /home/kya/.npm
+915 silly vacuum-fs quitting because other entries in /home/kya/.npm
+916 silly vacuum-fs quitting because other entries in /home/kya/.npm
+917 silly vacuum-fs quitting because other entries in /home/kya/.npm
+918 silly vacuum-fs quitting because other entries in /home/kya/.npm
+919 silly vacuum-fs quitting because other entries in /home/kya/.npm
+920 silly vacuum-fs quitting because other entries in /home/kya/.npm
+921 silly vacuum-fs quitting because other entries in /home/kya/.npm
+922 silly vacuum-fs quitting because other entries in /home/kya/.npm
+923 silly vacuum-fs quitting because other entries in /home/kya/.npm
+924 silly vacuum-fs quitting because other entries in /home/kya/.npm
+925 silly vacuum-fs quitting because other entries in /home/kya/.npm
+926 silly vacuum-fs quitting because other entries in /home/kya/.npm
+927 silly vacuum-fs quitting because other entries in /home/kya/.npm
+928 silly vacuum-fs quitting because other entries in /home/kya/.npm
+929 silly vacuum-fs quitting because other entries in /home/kya/.npm
+930 silly vacuum-fs quitting because other entries in /home/kya/.npm
+931 silly vacuum-fs quitting because other entries in /home/kya/.npm
+932 silly vacuum-fs quitting because other entries in /home/kya/.npm
+933 silly vacuum-fs quitting because other entries in /home/kya/.npm
+934 silly vacuum-fs quitting because other entries in /home/kya/.npm
+935 silly vacuum-fs quitting because other entries in /home/kya/.npm
+936 silly vacuum-fs quitting because other entries in /home/kya/.npm
+937 silly vacuum-fs quitting because other entries in /home/kya/.npm
+938 silly vacuum-fs quitting because other entries in /home/kya/.npm
+939 silly vacuum-fs quitting because other entries in /home/kya/.npm
+940 silly vacuum-fs quitting because other entries in /home/kya/.npm
+941 silly vacuum-fs quitting because other entries in /home/kya/.npm
+942 silly vacuum-fs quitting because other entries in /home/kya/.npm
+943 silly vacuum-fs quitting because other entries in /home/kya/.npm
+944 silly vacuum-fs quitting because other entries in /home/kya/.npm
+945 silly vacuum-fs quitting because other entries in /home/kya/.npm
+946 silly vacuum-fs quitting because other entries in /home/kya/.npm
+947 silly vacuum-fs quitting because other entries in /home/kya/.npm
+948 silly vacuum-fs quitting because other entries in /home/kya/.npm
+949 silly vacuum-fs quitting because other entries in /home/kya/.npm
+950 silly vacuum-fs quitting because other entries in /home/kya/.npm
+951 silly vacuum-fs quitting because other entries in /home/kya/.npm
+952 silly vacuum-fs quitting because other entries in /home/kya/.npm
+953 silly vacuum-fs quitting because other entries in /home/kya/.npm
+954 silly vacuum-fs quitting because other entries in /home/kya/.npm
+955 silly vacuum-fs quitting because other entries in /home/kya/.npm
+956 silly vacuum-fs quitting because other entries in /home/kya/.npm
+957 silly vacuum-fs quitting because other entries in /home/kya/.npm
+958 silly vacuum-fs quitting because other entries in /home/kya/.npm
+959 silly vacuum-fs quitting because other entries in /home/kya/.npm
+960 silly vacuum-fs quitting because other entries in /home/kya/.npm
+961 silly vacuum-fs quitting because other entries in /home/kya/.npm
+962 silly vacuum-fs quitting because other entries in /home/kya/.npm
+963 silly vacuum-fs quitting because other entries in /home/kya/.npm
+964 silly vacuum-fs quitting because other entries in /home/kya/.npm
+965 silly vacuum-fs quitting because other entries in /home/kya/.npm
+966 silly vacuum-fs quitting because other entries in /home/kya/.npm
+967 silly vacuum-fs quitting because other entries in /home/kya/.npm
+968 silly vacuum-fs quitting because other entries in /home/kya/.npm
+969 silly vacuum-fs quitting because other entries in /home/kya/.npm
+970 silly vacuum-fs quitting because other entries in /home/kya/.npm
+971 silly vacuum-fs quitting because other entries in /home/kya/.npm
+972 silly vacuum-fs quitting because other entries in /home/kya/.npm
+973 silly vacuum-fs quitting because other entries in /home/kya/.npm
+974 silly vacuum-fs quitting because other entries in /home/kya/.npm
+975 silly vacuum-fs quitting because other entries in /home/kya/.npm
+976 silly vacuum-fs quitting because other entries in /home/kya/.npm
+977 silly vacuum-fs quitting because other entries in /home/kya/.npm
+978 silly vacuum-fs quitting because other entries in /home/kya/.npm
+979 silly vacuum-fs quitting because other entries in /home/kya/.npm
+980 silly vacuum-fs quitting because other entries in /home/kya/.npm
+981 silly vacuum-fs quitting because other entries in /home/kya/.npm
+982 silly vacuum-fs quitting because other entries in /home/kya/.npm
+983 silly vacuum-fs quitting because other entries in /home/kya/.npm
+984 silly vacuum-fs quitting because other entries in /home/kya/.npm
+985 silly vacuum-fs quitting because other entries in /home/kya/.npm
+986 silly vacuum-fs quitting because other entries in /home/kya/.npm
+987 silly vacuum-fs quitting because other entries in /home/kya/.npm
+988 silly vacuum-fs quitting because other entries in /home/kya/.npm
+989 silly vacuum-fs quitting because other entries in /home/kya/.npm
+990 silly vacuum-fs quitting because other entries in /home/kya/.npm
+991 silly vacuum-fs quitting because other entries in /home/kya/.npm
+992 silly vacuum-fs quitting because other entries in /home/kya/.npm
+993 silly vacuum-fs quitting because other entries in /home/kya/.npm
+994 silly vacuum-fs quitting because other entries in /home/kya/.npm
+995 silly vacuum-fs quitting because other entries in /home/kya/.npm
+996 silly vacuum-fs quitting because other entries in /home/kya/.npm
+997 silly vacuum-fs quitting because other entries in /home/kya/.npm
+998 silly vacuum-fs quitting because other entries in /home/kya/.npm
+999 silly vacuum-fs quitting because other entries in /home/kya/.npm
+1000 silly vacuum-fs quitting because other entries in /home/kya/.npm
+1001 silly vacuum-fs quitting because other entries in /home/kya/.npm
+1002 silly vacuum-fs quitting because other entries in /home/kya/.npm
+1003 silly vacuum-fs quitting because other entries in /home/kya/.npm
+1004 silly vacuum-fs quitting because other entries in /home/kya/.npm
+1005 silly vacuum-fs quitting because other entries in /home/kya/.npm
+1006 silly vacuum-fs quitting because other entries in /home/kya/.npm
+1007 silly vacuum-fs quitting because other entries in /home/kya/.npm
+1008 silly vacuum-fs quitting because other entries in /home/kya/.npm
+1009 silly vacuum-fs quitting because other entries in /home/kya/.npm
+1010 silly vacuum-fs quitting because other entries in /home/kya/.npm
+1011 silly vacuum-fs quitting because other entries in /home/kya/.npm
+1012 silly vacuum-fs quitting because other entries in /home/kya/.npm
+1013 silly vacuum-fs quitting because other entries in /home/kya/.npm
+1014 silly vacuum-fs quitting because other entries in /home/kya/.npm
+1015 silly vacuum-fs quitting because other entries in /home/kya/.npm
+1016 silly vacuum-fs quitting because other entries in /home/kya/.npm
+1017 silly vacuum-fs quitting because other entries in /home/kya/.npm
+1018 silly vacuum-fs quitting because other entries in /home/kya/.npm
+1019 silly vacuum-fs quitting because other entries in /home/kya/.npm
+1020 silly vacuum-fs quitting because other entries in /home/kya/.npm
+1021 silly vacuum-fs quitting because other entries in /home/kya/.npm
+1022 silly vacuum-fs quitting because other entries in /home/kya/.npm
+1023 silly vacuum-fs quitting because other entries in /home/kya/.npm
+1024 silly vacuum-fs quitting because other entries in /home/kya/.npm
+1025 silly vacuum-fs quitting because other entries in /home/kya/.npm
+1026 silly vacuum-fs quitting because other entries in /home/kya/.npm
+1027 silly vacuum-fs quitting because other entries in /home/kya/.npm
+1028 silly vacuum-fs quitting because other entries in /home/kya/.npm
+1029 silly vacuum-fs quitting because other entries in /home/kya/.npm
+1030 silly vacuum-fs quitting because other entries in /home/kya/.npm
+1031 silly vacuum-fs quitting because other entries in /home/kya/.npm
+1032 silly vacuum-fs quitting because other entries in /home/kya/.npm
+1033 silly vacuum-fs quitting because other entries in /home/kya/.npm
+1034 silly vacuum-fs quitting because other entries in /home/kya/.npm
+1035 silly vacuum-fs quitting because other entries in /home/kya/.npm
+1036 silly vacuum-fs quitting because other entries in /home/kya/.npm
+1037 silly vacuum-fs quitting because other entries in /home/kya/.npm
+1038 silly vacuum-fs quitting because other entries in /home/kya/.npm
+1039 silly vacuum-fs quitting because other entries in /home/kya/.npm
+1040 silly vacuum-fs quitting because other entries in /home/kya/.npm
+1041 silly vacuum-fs quitting because other entries in /home/kya/.npm
+1042 silly vacuum-fs quitting because other entries in /home/kya/.npm
+1043 silly vacuum-fs quitting because other entries in /home/kya/.npm
+1044 silly vacuum-fs quitting because other entries in /home/kya/.npm
+1045 silly vacuum-fs quitting because other entries in /home/kya/.npm
+1046 silly vacuum-fs quitting because other entries in /home/kya/.npm
+1047 silly vacuum-fs quitting because other entries in /home/kya/.npm
+1048 silly vacuum-fs quitting because other entries in /home/kya/.npm
+1049 silly vacuum-fs quitting because other entries in /home/kya/.npm
+1050 silly vacuum-fs quitting because other entries in /home/kya/.npm
+1051 silly vacuum-fs quitting because other entries in /home/kya/.npm
+1052 silly vacuum-fs quitting because other entries in /home/kya/.npm
+1053 silly vacuum-fs quitting because other entries in /home/kya/.npm
+1054 silly vacuum-fs quitting because other entries in /home/kya/.npm
+1055 silly vacuum-fs quitting because other entries in /home/kya/.npm
+1056 silly vacuum-fs quitting because other entries in /home/kya/.npm
+1057 silly vacuum-fs quitting because other entries in /home/kya/.npm
+1058 silly vacuum-fs quitting because other entries in /home/kya/.npm
+1059 silly vacuum-fs quitting because other entries in /home/kya/.npm
+1060 silly vacuum-fs quitting because other entries in /home/kya/.npm
+1061 silly vacuum-fs quitting because other entries in /home/kya/.npm
+1062 silly vacuum-fs quitting because other entries in /home/kya/.npm
+1063 silly vacuum-fs quitting because other entries in /home/kya/.npm
+1064 silly vacuum-fs quitting because other entries in /home/kya/.npm
+1065 verbose stack Error: EACCES: permission denied, rmdir '/home/kya/.npm/_cacache/content-v2'
+1066 verbose cwd /home/kya/Documents/Clases/Semana_14/Sesion_1
+1067 error Linux 5.3.0-45-generic
+1068 error argv "/usr/bin/node" "/usr/bin/npm" "cache" "clean" "-f"
+1069 error node v8.10.0
+1070 error npm  v3.5.2
+1071 error path /home/kya/.npm/_cacache/content-v2
+1072 error code EACCES
+1073 error errno -13
+1074 error syscall rmdir
+1075 error Error: EACCES: permission denied, rmdir '/home/kya/.npm/_cacache/content-v2'
+1075 error  { Error: EACCES: permission denied, rmdir '/home/kya/.npm/_cacache/content-v2'
+1075 error   errno: -13,
+1075 error   code: 'EACCES',
+1075 error   syscall: 'rmdir',
+1075 error   path: '/home/kya/.npm/_cacache/content-v2' }
+1076 error Please try running this command again as root/Administrator.
+1077 verbose exit [ -13, true ]

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promise</title>
+</head>
+<body>
+    <script>
+
+        function getUsers(){
+            return new Promise(function(resolve,reject){
+                setTimeout(function(){
+                    const names =[{
+                        id:1,
+                        user:'jose'
+                    },{
+                        id:2,
+                        user:'luis'
+                    }]
+                    resolve(names)
+                },1000)
+            })
+        }
+
+        function getAccountUser(users){
+            return new Promise(function(resolve,reject){
+                setTimeout(function(){
+                    const accounts =[{
+                        account:'1234',
+                        user:'jose'
+                    },{
+                        account:'5678',
+                        user:'luis'
+                    }]
+                    const solutionAccountUsers = users.map(user => accounts.map(((accounts)=> accounts.user == user.user))&& accounts)
+                    console.log('solutionAccountUsers',solutionAccountUsers)
+                    resolve(solutionAccountUsers)
+                },1000)
+            })
+        }
+
+        function getNumberAccount(accounts){
+            return new Promise(function (resolve,reject){
+                setTimeout(function(){
+                    const response = accounts.filter((account) => account.account)
+                    resolve(response)
+                },1000)
+            })
+        }
+
+        // Normalmente usamos las promesas para funciones asincronas como FETCH
+        // const getNames = new Promise(function(resolve,reject){
+        //     setTimeout(function(){
+        //         const names =["jose","sebastian","luis"]
+        //         reject(names)
+        //     },1000)
+        // })
+
+        //console.log('getNames',getNames)
+
+        // getUsers().then(function(names){ //metodo then para conectar a la promesa
+        //     console.log('names',names)
+        // },function(err){
+        //     console.log('err',err)
+        // })
+
+
+        // ERROR DESCONOCIDO
+        getUsers().then(function(users){
+            return getAccountUser(users)
+        }).then(function(accounts){
+            return getNumberAccount(accounts)
+        }).then(function(numbersAccounts){
+            console.log('numbersAccounts',numbersAccounts)
+        }).catch((err)=>{
+            console.log('err',err)
+        }).finally(()=>{ // siempre se ejecuta apesar de q se haya caido
+            console.log('finally')
+        })
+
+        
+        Promise.all([getUsers()]).then(function(response){
+            console.log('response con all', response)
+        })
+
+    </script>
+</body>
+</html>

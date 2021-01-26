@@ -9,6 +9,36 @@
         .is-active{
             background: red;
         }
+
+        .menu-dropdown{
+            position:relative;
+            background: transparent;
+            border:none;
+            background:green;
+            padding:20px;
+        }
+
+        .menu-dropdown ul{
+            position: absolute;
+            left:0;
+            box-sizing: border-box;
+            text-align: left;
+            top:100%;
+            list-style: none;
+            padding: 10px;
+            margin: 0;
+            width: 100%;
+            background: #9de89d;
+            display: none;
+        }
+
+        .menu-dropdown li{
+            margin-bottom: 20px;
+        }
+
+        .menu-dropdown li:last-child{
+            margin: 0;
+        }
     </style>
 </head>
 <body>
@@ -16,6 +46,34 @@
     <button class="js_dos" data-color="blue">TOGGLE 2</button>
     <button class="js_tres" data-color="pink">TOGGLE 3</button>
     <button>TOGGLE 4</button>
+
+    <button class="js_dropdown menu-dropdown">
+        DROPDOWN
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+        </ul>
+    </button>
+    <button class="js_dropdown menu-dropdown">
+        DROPDOWN
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+        </ul>
+    </button>
+    <button class="js_dropdown menu-dropdown">
+        DROPDOWN
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+        </ul>
+    </button>
     <script>
         //-- Las clases son solo una forma en como trabajar los objetos sin embargo es mas frecuente utilizar las funciones como objetos.
 
@@ -81,6 +139,16 @@
 
         // THIS
 
+        function Dropdown (options){
+            this.element = document.querySelector(options.element);
+            this.element.onclick = function(){
+                this.classList.toggle('is-active')
+            }
+        }
+
+        const dropdown1 = new Dropdown({
+            element:'.js_dropdown'
+        })
 
     </script>
 </body>
